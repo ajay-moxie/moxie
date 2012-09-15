@@ -1,0 +1,234 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{42DD5C79-2EF3-4DEC-ABE6-A7E368BA6BDF}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Moxie</RootNamespace>
+    <AssemblyName>Moxie</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default1.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default1.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default1.aspx.designer.cs">
+      <DependentUpon>Default1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Moxie.Master.cs">
+      <DependentUpon>Moxie.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Moxie.Master.designer.cs">
+      <DependentUpon>Moxie.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="usercontrol\inner_banner.ascx.cs">
+      <DependentUpon>inner_banner.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrol\inner_banner.ascx.designer.cs">
+      <DependentUpon>inner_banner.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrol\right-link.ascx.cs">
+      <DependentUpon>right-link.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrol\right-link.ascx.designer.cs">
+      <DependentUpon>right-link.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrol\rss.ascx.cs">
+      <DependentUpon>rss.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrol\rss.ascx.designer.cs">
+      <DependentUpon>rss.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="company.aspx.cs">
+      <DependentUpon>company.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="company.aspx.designer.cs">
+      <DependentUpon>company.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="products.aspx.cs">
+      <DependentUpon>products.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products.aspx.designer.cs">
+      <DependentUpon>products.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sitemap.aspx.cs">
+      <DependentUpon>sitemap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sitemap.aspx.designer.cs">
+      <DependentUpon>sitemap.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="company.html" />
+    <Content Include="contact.html" />
+    <Content Include="css\style.css" />
+    <Content Include="images\111.jpg" />
+    <Content Include="images\backup.jpg" />
+    <Content Include="images\banner-2.jpg" />
+    <Content Include="images\banner-3.jpg" />
+    <Content Include="images\banner-4.jpg" />
+    <Content Include="images\banner.jpg" />
+    <Content Include="images\company-trans.png" />
+    <Content Include="images\contact-trans.png" />
+    <Content Include="images\Copy of banner-2.jpg" />
+    <Content Include="images\Copy of banner-3.jpg" />
+    <Content Include="images\Copy of banner.jpg" />
+    <Content Include="images\E02454.jpg" />
+    <Content Include="images\fb-trans.png" />
+    <Content Include="images\footer_bg.jpg" />
+    <Content Include="images\footer_divider.jpg" />
+    <Content Include="images\gplus-trans.png" />
+    <Content Include="images\heading-trans.png" />
+    <Content Include="images\H_300w_1045555_snapshot.jpg" />
+    <Content Include="images\in-trans.png" />
+    <Content Include="images\inner-text.png" />
+    <Content Include="images\inner.jpg" />
+    <Content Include="images\loading.gif" />
+    <Content Include="images\logo-trans.png" />
+    <Content Include="images\navigation-trans.png" />
+    <Content Include="images\navigation_divider-trans.png" />
+    <Content Include="images\pagination-trans.png" />
+    <Content Include="images\peak-detector-circuit.png" />
+    <Content Include="images\products-trans.png" />
+    <Content Include="images\rss-trans.png" />
+    <Content Include="images\rss_bg.jpg" />
+    <Content Include="images\social_icon-trans.png" />
+    <Content Include="images\solar_panel.png" />
+    <Content Include="images\solar_panels0793.jpg" />
+    <Content Include="images\tab-1-trans.png" />
+    <Content Include="images\tab-2-trans.png" />
+    <Content Include="images\tab-3-trans.png" />
+    <Content Include="images\tab-4-trans.png" />
+    <Content Include="images\tab-5-trans.png" />
+    <Content Include="images\top_bg.jpg" />
+    <Content Include="images\tw-trans.png" />
+    <Content Include="images\welcome-trans.png" />
+    <Content Include="index.html" />
+    <Content Include="js\jquery.easing.1.3.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\slides.min.jquery.js" />
+    <Content Include="products.html" />
+    <Content Include="sitemap.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="css\OpenSans-ExtraBold-webfont.eot" />
+    <None Include="css\OpenSans-ExtraBold-webfont.svg" />
+    <None Include="css\OpenSans-ExtraBold-webfont.ttf" />
+    <None Include="css\OpenSans-ExtraBold-webfont.woff" />
+    <None Include="css\OpenSans-Regular-webfont.eot" />
+    <None Include="css\OpenSans-Regular-webfont.svg" />
+    <None Include="css\OpenSans-Regular-webfont.ttf" />
+    <None Include="css\OpenSans-Regular-webfont.woff" />
+    <Content Include="Moxie.Master" />
+    <Content Include="usercontrol\inner_banner.ascx" />
+    <Content Include="usercontrol\right-link.ascx" />
+    <Content Include="usercontrol\rss.ascx" />
+    <Content Include="company.aspx" />
+    <Content Include="ContactUs.aspx" />
+    <Content Include="products.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="sitemap.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1651</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,5 @@
+E:\moxie\Moxie\Moxie\bin\Moxie.dll
+E:\moxie\Moxie\Moxie\bin\Moxie.pdb
+E:\moxie\Moxie\Moxie\obj\Debug\ResolveAssemblyReference.cache
+E:\moxie\Moxie\Moxie\obj\Debug\Moxie.dll
+E:\moxie\Moxie\Moxie\obj\Debug\Moxie.pdb
