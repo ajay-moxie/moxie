@@ -1,2 +1,2 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="right-link.ascx.cs" Inherits="Moxie.usercontrol.right_links" %>
-<img src="images/inner-text.png"  style="display:block; float:left; margin-top:40px;"/>
+<img src="~/images/inner-text.png"  style="display:block; float:left; margin-top:40px;" runat="server" />

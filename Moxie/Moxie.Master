@@ -2,7 +2,7 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>:: Moxie ::</title>
 <link href="css/style.css" rel="stylesheet" type="text/css" />
@@ -17,9 +17,9 @@
 <body>
 <div class="main">
 <div class="header">
-<div class="logo left"><a href="index.html" title="Movxie"><img src="images/logo-trans.png"  alt="Movxie" /></a></div>
+<div class="logo left"><a href="index.html" title="Movxie"><img src="~/images/logo-trans.png"  alt="Movxie" runat="server" /></a></div>
 <div class="top_link right">
-<a href="Default.aspx" title="Home">Home</a><span>|</span><a href="company.aspx" title="Comapny">Company</a><span>|</span><a href="products.aspx" title="Products">Products</a><span>|</span><a href="ContactUs.aspx" title="Contact">Contact</a>
+<a href="~" title="Home"  runat="server">Home</a><span>|</span><a href="~/company.aspx" title="Company" runat="server" >Company</a><span>|</span><a href="~/products/" title="Products"  runat="server">Products</a><span>|</span><a href="~/ContactUs.aspx" title="Contact"  runat="server">Contact</a>
 </div>
 </div>
 <div class="clear"></div>
@@ -43,7 +43,7 @@ Moxie Devices is a professionally managed company engaged in the designing, manu
 </div>
 <div class="footer_divider left"><img src="images/footer_divider.jpg" width="4" height="120" alt="" /></div>
 <div class="footer_link left">
-  <a href="Default.aspx">Home</a><a href="company.aspx">comapny</a><a href="products.aspx">Products</a><a href="ContactUs.aspx">Contact</a><a href="sitemap.aspx" class="btm_bdr">Sitemap</a></div>
+  <a href="~"  runat="server">Home</a><a href="~/company.aspx"  runat="server">comapny</a><a href="~/products"  runat="server" >Products</a><a href="~/ContactUs.aspx"  runat="server" >Contact</a><a href="~/sitemap.aspx" class="btm_bdr"  runat="server">Sitemap</a></div>
 <div class="footer_divider left"><img src="images/footer_divider.jpg" width="4" height="120" alt="" /></div>
 <div class="contact left">
 Moxie Devices<br/>
@@ -53,8 +53,8 @@ India - 201301
 +91 8860498498</span>
 
 </div>
-<div class="footer_divider left"><img src="images/footer_divider.jpg" width="4" height="120" alt="" /></div>
-<div class="social left"><a href="http://www.facebook.com/" target="_blank"><img src="images/fb-trans.png" alt="" /></a><a href="https://twitter.com/" target="_blank"><img src="images/tw-trans.png" alt=""/></a><a href="http://www.linkedin.com/" target="_blank"><img src="images/in-trans.png"  alt="" /></a><a href="https://plus.google.com/" target="_blank"><img src="images/gplus-trans.png"  alt="" /></a></div>
+<div class="footer_divider left"><img src="~/images/footer_divider.jpg" width="4" height="120" alt="" runat="server" /></div>
+<div class="social left"><a href="http://www.facebook.com/" target="_blank"><img src="~/images/fb-trans.png" alt="" runat="server" /></a><a href="https://twitter.com/" target="_blank"><img src="~/images/tw-trans.png" alt="" runat="server" /></a><a href="http://www.linkedin.com/" target="_blank"><img src="~/images/in-trans.png"  alt="" runat="server" /></a><a href="https://plus.google.com/" target="_blank"><img src="~/images/gplus-trans.png"  alt="" runat="server" /></a></div>
 
 </div>
 <div class="clear"></div>
