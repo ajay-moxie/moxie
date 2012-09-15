@@ -19,7 +19,7 @@
 <div class="header">
 <div class="logo left"><a href="index.html" title="Movxie"><img src="~/images/logo-trans.png"  alt="Movxie" runat="server" /></a></div>
 <div class="top_link right">
-<a href="~" title="Home"  runat="server">Home</a><span>|</span><a href="~/company.aspx" title="Company" runat="server" >Company</a><span>|</span><a href="~/products/" title="Products"  runat="server">Products</a><span>|</span><a href="~/ContactUs.aspx" title="Contact"  runat="server">Contact</a>
+<a href="~" title="Home"  runat="server">Home</a><span>|</span><a href="~/aboutus" title="Company" runat="server" >Company</a><span>|</span><a href="~/products/" title="Products"  runat="server">Products</a><span>|</span><a href="~/ContactUs" title="Contact"  runat="server">Contact</a>
 </div>
 </div>
 <div class="clear"></div>
@@ -43,7 +43,7 @@ Moxie Devices is a professionally managed company engaged in the designing, manu
 </div>
 <div class="footer_divider left"><img src="images/footer_divider.jpg" width="4" height="120" alt="" /></div>
 <div class="footer_link left">
-  <a href="~"  runat="server">Home</a><a href="~/company.aspx"  runat="server">comapny</a><a href="~/products"  runat="server" >Products</a><a href="~/ContactUs.aspx"  runat="server" >Contact</a><a href="~/sitemap.aspx" class="btm_bdr"  runat="server">Sitemap</a></div>
+  <a href="~"  runat="server">Home</a><a href="~/aboutus"  runat="server">comapny</a><a href="~/products"  runat="server" >Products</a><a href="~/ContactUs"  runat="server" >Contact</a><a href="~/sitemap.aspx" class="btm_bdr"  runat="server">Sitemap</a></div>
 <div class="footer_divider left"><img src="images/footer_divider.jpg" width="4" height="120" alt="" /></div>
 <div class="contact left">
 Moxie Devices<br/>
