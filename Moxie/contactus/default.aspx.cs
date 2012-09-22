@@ -28,16 +28,17 @@ namespace Moxie
 
                 // You can specify the host name or ipaddress of your server
                 // Default in IIS will be localhost 
-                smtpClient.Host = "localhost";
+                smtpClient.Host = "smtp.live.com";
 
                 //Default port will be 25
                 smtpClient.Port = 25;
+                smtpClient.EnableSsl=true;
 
                 //From address will be given as a MailAddress Object
                 message.From = fromAddress;
 
                 // To address collection of MailAddress
-                message.To.Add("");
+                message.To.Add("contact@moxiedevices.com");
                 message.Subject = "Feedback";
 
                 //Body can be Html or text format
@@ -48,7 +49,10 @@ namespace Moxie
                 message.Body = "<p>" + txtMessage.Text + "</p><br>";
                 message.Body += txtName.Text + "<BR>";
                 message.Body += txtPhone.Text + "<BR>";
+                message.Body += txtEmail.Text + "<BR>";
 
+                //oujjn [                                                 nsmtpClient.
+                smtpClient.Credentials = new System.Net.NetworkCredential("contact@moxiedevices.com", "nj123456");
                 // Send SMTP mail
                 smtpClient.Send(message);
 

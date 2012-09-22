@@ -29,7 +29,7 @@ Phone: &nbsp;&nbsp;+91 8860498498<br />
         <td align="right">Your Email Address <span class="red">*</span></td>
         <td><asp:TextBox ID="txtEmail" runat="server"></asp:TextBox></td>
         <td>
-            <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="* Required" ControlToValidate="txtEmail"></asp:RequiredFieldValidator></td>
+            <asp:RegularExpressionValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Invalid Email Address" ControlToValidate="txtEmail" ValidationExpression="\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator></td>
     </tr>
      <tr>
         <td align="right">Phone</td>
