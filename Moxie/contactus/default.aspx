@@ -33,11 +33,13 @@ Phone: &nbsp;&nbsp;+91 8860498498<br />
     </tr>
      <tr>
         <td align="right">Phone</td>
-        <td><asp:TextBox ID="txtPhone" runat="server"></asp:TextBox></td>
+        <td><asp:TextBox ID="txtPhone" runat="server"></asp:TextBox>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="* Required" ControlToValidate="txtPhone"> </asp:RequiredFieldValidator></td>
     </tr>
     <tr>
         <td align="right">Your Comments</td>
-        <td><asp:TextBox ID="txtMessage" TextMode="MultiLine" runat="server"></asp:TextBox></td>
+        <td><asp:TextBox ID="txtMessage" TextMode="MultiLine" runat="server"></asp:TextBox>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="* Required" ControlToValidate="txtMessage"> </asp:RequiredFieldValidator></td>
         <td></td>
     </tr>
    
