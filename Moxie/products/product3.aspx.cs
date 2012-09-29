@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace Moxie
 {
-    public partial class Moxie : System.Web.UI.MasterPage
+    public partial class WebForm7 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Page.Header.DataBind();
+
         }
     }
 }

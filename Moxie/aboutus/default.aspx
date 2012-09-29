@@ -1,4 +1,4 @@
-<%@ Page Title="" Language="C#" MasterPageFile="~/Moxie.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="Moxie.company" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="Moxie.company" %>
 <%@ Register src="~/usercontrol/rss.ascx" tagname="rss" tagprefix="uc1" %>
 <%@ Register src="~/usercontrol/right-link.ascx" tagname="right" tagprefix="uc2" %>
 <%@ Register src="~/usercontrol/inner_banner.ascx" tagname="inner_banner" tagprefix="uc3" %>

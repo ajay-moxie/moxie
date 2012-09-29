@@ -10,24 +10,24 @@
 namespace Moxie {
     
     
-    public partial class Moxie {
+    public partial class WebForm6 {
         
         /// <summary>
-        /// form1 control.
+        /// inner_banner1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::Moxie.usercontrol.inner_banner inner_banner1;
         
         /// <summary>
-        /// ContentPlaceHolder1 control.
+        /// right1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
+        protected global::Moxie.usercontrol.right_links right1;
     }
 }

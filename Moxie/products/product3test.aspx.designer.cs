@@ -7,18 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Moxie {
+namespace Moxie.products {
     
     
-    public partial class WebForm2 {
-        
-        /// <summary>
-        /// rss1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::Moxie.usercontrol.rss rss1;
+    public partial class product3test {
     }
 }
