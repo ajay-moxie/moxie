@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.Master.cs" Inherits="Moxie.Master" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Moxie Devices: Innovative solutions for LED Lighting, LED Driver, Solar and Renewable
+        Energy, Power Backup, Consumer Electronics</title>
+    <link href="~/css/style.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <!--[if lt IE 7]>
+
+<script src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE7.js" type="text/javascript"></script>
+
+<![endif]-->
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="logo left">
+                <a href="~/" title="Moxie" runat="server">
+                    <img src="~/images/logo-trans.png" alt="Moxie" runat="server" /></a></div>
+            <div class="top_link right">
+                <a href="~/" title="Home" runat="server">Home</a><span>|</span><a href="~/aboutus"
+                    title="Company" runat="server">Company</a><span>|</span><a href="~/products/" title="Products"
+                        runat="server">Products</a><span>|</span><a href="~/products/Custom Solutions and Consultancy/" title="Services" runat="server">Services</a><span>|</span><a href="~/ContactUs" title="Contact" runat="server">Contact</a>
+            </div>
+        </div>
+        <div class="clear">
+        </div>
+        <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        </form>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="clear">
+    </div>
+    <div class="footer_main">
+        <div class="footer_block">
+            <div class="abt_led left">
+                <h1>
+                    Green Initiative</h1>
+                Moxie Devices aims to support India's Green initiatives by using mainly renewable
+                energy sources like Solar energy and energy efficient LEDs for its product line.
+                We provide environmentally conscious solutions by creating long lasting products
+                that are designed to meet Unique customer needs, Approved by central agencies (like
+                MNRE) and to Protect the environment for today and for the future.
+            </div>
+            <div class="footer_divider left">
+                <img src="images/footer_divider.jpg" width="4" height="120" alt="" /></div>
+            <div class="footer_link left">
+                <a href="~/" runat="server">Home</a><a href="~/aboutus" runat="server">comapny</a><a
+                    href="~/products" runat="server">Products</a><a href="~/ContactUs" runat="server">Contact</a><a
+                        href="~/sitemap.aspx" class="btm_bdr" runat="server">Sitemap</a></div>
+            <div class="footer_divider left">
+                <img src="images/footer_divider.jpg" width="4" height="120" alt="" /></div>
+            <div class="contact left">
+                Moxie Devices<br />
+                G212, Sector 63, Noida,<br />
+                India - 201301 <span>+91 8860497497<br />
+                    +91 8860498498</span>
+            </div>
+            <div class="footer_divider left">
+                <img src="~/images/footer_divider.jpg" width="4" height="120" alt="" runat="server" /></div>
+            <div class="social left">
+                <a href="http://www.facebook.com/" target="_blank">
+                    <img src="~/images/fb-trans.png" alt="" runat="server" /></a><a href="https://twitter.com/"
+                        target="_blank"><img src="~/images/tw-trans.png" alt="" runat="server" /></a><a href="http://www.linkedin.com/"
+                            target="_blank"><img src="~/images/in-trans.png" alt="" runat="server" /></a><a href="https://plus.google.com/"
+                                target="_blank"><img src="~/images/gplus-trans.png" alt="" runat="server" /></a></div>
+        </div>
+        <div class="clear">
+        </div>
+        <div class="copyright">
+            &copy; 2012, All rights reserved.&nbsp;&nbsp;Website design by Hexacreative</div>
+        <div class="clear">
+        </div>
+    </div>
+</body>
+</html>
