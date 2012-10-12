@@ -31,7 +31,7 @@
     </div>
     <div class="tabs">
         <div class="tab-1 left">
-            <span class="heading"><a href="~/products/Lighting Solutions/" title="Lighting Solutions"
+            <span class="heading"><a href="~/products/Lighting-Solutions/" title="Lighting Solutions"
                 runat="server">Lighting Solutions</a></span>
             <ul>
                 <li>LED Drivers</li>
@@ -39,7 +39,7 @@
             </ul>
         </div>
         <div class="tab-2 left">
-            <span class="heading"><a href="~/products/Solar Renewable Energy/" title="Solar and Renewable energy"
+            <span class="heading"><a href="~/products/Solar-Renewable-Energy/" title="Solar and Renewable energy"
                 runat="server">Solar and Renewable energy</a></span>
             <ul>
                 <li>Solar Mobile Chargers</li>
@@ -51,7 +51,7 @@
             </ul>
         </div>
         <div class="tab-3 left">
-            <span class="heading"><a href="~/products/Power Back-UP Solutions/" title="Power back-up Solutions"
+            <span class="heading"><a href="~/products/Power-Back-UP-Solutions/" title="Power back-up Solutions"
                 runat="server">Power back-up Solutions</a></span>
             <ul>
                 <li>Inverters</li>
@@ -59,7 +59,7 @@
             </ul>
         </div>
         <div class="tab-4 left">
-            <span class="heading"><a href="~/products/Consumer Electronics" title="Consumer Electronics"
+            <span class="heading"><a href="~/products/Consumer-Electronics" title="Consumer Electronics"
                 runat="server">Consumer Electronics</a></span>
             <ul>
                 <li>LED Bulbs</li>
@@ -67,7 +67,7 @@
             </ul>
         </div>
         <div class="tab-5 left">
-            <span class="heading"><a href="~/products/Custom Solutions and Consultancy" title="Custom Solutions and Consultancy"
+            <span class="heading"><a href="~/products/Custom-Solutions-and-Consultancy" title="Custom Solutions and Consultancy"
                 runat="server">Custom Solutions and Consultancy</a></span>
             <ul>
                 <li>Confugurable Solutions</li>
