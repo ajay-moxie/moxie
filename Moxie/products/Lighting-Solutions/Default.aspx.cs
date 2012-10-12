@@ -5,13 +5,13 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace Moxie.products.Solar_Renewable_Energy
+namespace Moxie.products.Lighting_Solutions
 {
     public partial class Default : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Master.CID = "_1_";
         }
     }
 }
