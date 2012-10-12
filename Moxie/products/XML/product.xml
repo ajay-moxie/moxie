@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<HEADER>
+	<PRODUCT CATEGORY="_4_" NAME="MSLD6D">
+		<NAME>MSLD6D</NAME>
+		<SUMMARY>"Solar Lantern LED Driver and SMF Battery Charger with PWM Dimming, mobile phone charging"</SUMMARY>
+		<FEATURES>
+			High efficiency > 85%
+			&lt;br /&gt;
+			PWM Dimming
+			&lt;br /&gt;
+			Battery reverse discharging protection
+			&lt;br /&gt;
+			LED charging indicator
+			&lt;br /&gt;
+			Battery over voltage protection
+			&lt;br /&gt;
+			Best suited for commercial 6V SMF solar charged lanterns
+			&lt;br /&gt;
+			Solder free design
+			&lt;br /&gt;
+			Low cost
+			&lt;br /&gt;
+		</FEATURES>
+		<SHORTFEATURES>
+			High efficiency > 85%
+			&lt;br /&gt;
+			PWM Dimming
+			&lt;br /&gt;
+			Protection Circuit
+			&lt;br /&gt;
+			6V SMF solar charged lanterns
+			&lt;br /&gt;
+			Low cost
+		</SHORTFEATURES>
+		<APPLICATION>
+			MSLD6D is a high efficiency LED driver with SMF battery charging for 6V SMF and
+			efficient PWM Dimming control. It houses state of art protection circuits for Battery
+			reverse charging, over voltage protection.
+			&lt;br /&gt;
+			&lt;br /&gt;
+			This is best suited for designing of Solar Lanterns, powered with 6V SMF battery.
+			It can drive LED string with output power 1.5W to 2.4W,
+		</APPLICATION>
+		<DATASHEET>~/products/MSLD6D/MSLD6D_DataSheet.pdf</DATASHEET>
+		<IMAGE>~/products/MSLD6D/MSLD6D.jpg</IMAGE>
+		<URL>~/products/MSLD6D/</URL>
+	</PRODUCT>
+	<PRODUCT CATEGORY="_0_,_1_,_2_,_3_,_4_"  NAME="MSLD12M">
+		<NAME>MSLD12M</NAME>
+		<SUMMARY>MNRE Compliant Solar Lantern LED Driver and Battery Charger</SUMMARY>
+		<FEATURES>
+			High efficiency > 85%
+			&lt;br /&gt;
+			Regulated Voltage, Constant Current LED driver
+			&lt;br /&gt;
+			Battery reverse polarity protection
+			&lt;br /&gt;
+			No load protection
+			&lt;br /&gt;
+			Low voltage(11.4V)/over charge(14 V) cutoff
+			&lt;br /&gt;
+			Best suited for commercial 12V SMF solar charged lanterns
+			&lt;br /&gt;
+			Solder free design Low cost
+			
+		</FEATURES>
+		<SHORTFEATURES>
+			High efficiency > 85%
+			&lt;br /&gt;
+			MNRE Specifications
+			&lt;br /&gt;
+			Protection Circuit
+			&lt;br /&gt;
+			12V SMF solar charged lanterns
+			&lt;br /&gt;
+			Low cost
+		</SHORTFEATURES>
+		<APPLICATION>
+			MSLD6D is a high efficiency LED driver with SMF battery charging for 12V SMF. It
+			is compliant to MNRE specifications for protection circuit requirements and indicators
+			requirement.
+			&lt;br /&gt;
+			&lt;br /&gt;
+			It houses state of art protection circuits for Battery reverse charging, over voltage
+			protection.
+			&lt;br /&gt;
+			&lt;br /&gt;
+			This is best suited for designing of Solar Lanterns, powered with 12V SMF battery.
+			It can drive LED string with output power 2W to 3.5W
+		</APPLICATION>
+		<DATASHEET>~/products/MSLD6D/MSLD6D_DataSheet.pdf</DATASHEET>
+		<IMAGE>~/products/MSLD6D/MSLD6D.jpg</IMAGE>
+		<URL>~/products/MSLD12M/</URL>
+	</PRODUCT>
+	<PRODUCT CATEGORY="_0_,_1_,_2_,_3_,_4_"  NAME="MMC6">
+		<NAME>MMC6</NAME>
+		<SUMMARY>MMC6 - Mobile Charger for 6V Battery</SUMMARY>
+		<FEATURES>
+			Highly efficient constant current driver
+			&lt;br /&gt;
+			Regulated voltage
+			&lt;br /&gt;
+			Low power dissipation
+			&lt;br /&gt;
+			Low heat dissipation
+			&lt;br /&gt;
+			Wide range ambient temperature
+			&lt;br /&gt;
+			Best suited for mobile chargers working with 6 V battery
+			&lt;br /&gt;
+			Low cost/low component count
+		</FEATURES>
+		<SHORTFEATURES>
+			Constant Current Driver
+			&lt;br /&gt;
+			Regulated voltage
+			&lt;br /&gt;
+			Low power/head dissipation
+			&lt;br /&gt;
+			Mobile chargers working with 6 V battery
+			&lt;br /&gt;
+			Low cost/low component count
+		</SHORTFEATURES>
+		<APPLICATION>
+			MMC6 is a high efficiency mobile battery charger operating at input DC voltage of
+			6V.
+		</APPLICATION>
+		<DATASHEET>~/products/MMC6/MMC6_DataSheet.pdf</DATASHEET>
+		<IMAGE>~/products/MMC6/MMC6.jpg</IMAGE>
+		<URL>~/products/MMC6/</URL>
+	</PRODUCT>
+	<PRODUCT CATEGORY="_0_,_1_,_2_,_3_,_4_"  NAME="MMC12">
+		<NAME>MMC12</NAME>
+		<SUMMARY>MMC12 - Mobile Charger for 12V Battery</SUMMARY>
+		<FEATURES>
+			IC Regulated, Highly efficient constant current driver
+			&lt;br /&gt;
+			Regulated voltage
+			&lt;br /&gt;
+			Low power dissipation
+			&lt;br /&gt;
+			Low heat dissipation
+			&lt;br /&gt;
+			Wide range ambient temperature
+			&lt;br /&gt;
+			Best suited for mobile chargers working with 12 V battery
+			&lt;br /&gt;
+			Low cost/low component count
+		</FEATURES>
+		<SHORTFEATURES>
+			IC Regulated
+			&lt;br /&gt;
+			Regulated voltage
+			&lt;br /&gt;
+			Low power/head dissipation
+			&lt;br /&gt;
+			Mobile chargers working with 12 V battery
+			&lt;br /&gt;
+			Low cost/low component count
+		</SHORTFEATURES>
+		<APPLICATION>
+			MMC12 is a high efficiency mobile battery charger operating at input DC voltage of
+			12V.
+		</APPLICATION>
+		<DATASHEET>~/products/MMC12/MMC12_DataSheet.pdf</DATASHEET>
+		<IMAGE>~/products/MMC12/MMC12.jpg</IMAGE>
+		<URL>~/products/MMC12/</URL>
+	</PRODUCT>
+</HEADER>
