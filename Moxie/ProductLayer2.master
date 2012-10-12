@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true"
+    CodeBehind="ProductLayer2.master.cs" Inherits="Moxie.ProductLayer2" %>
+
+<%@ Register Src="~/usercontrol/inner_banner.ascx" TagName="inner_banner" TagPrefix="uc1" %>
+<%@ Register Src="~/usercontrol/right-link.ascx" TagName="right" TagPrefix="uc2" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div class="clear">
+    </div>
+    <uc1:inner_banner ID="inner_banner1" runat="server" />
+    <div class="clear">
+    </div>
+    <div class="content_inr">
+        <div class="container_block left">
+            <div class="category_block left">
+                <h1>
+                    <asp:Label ID="CategoryName" runat="server" />
+                </h1>
+                <asp:Repeater ID="product" runat="server">
+                    <HeaderTemplate>
+                    </HeaderTemplate>
+                    <ItemTemplate>
+                        <div class="product_block left">
+                            <a id="p11" href='<%#Page.ResolveUrl(((System.Xml.XmlNode)Container.DataItem)["URL"].InnerText)%>'
+                                runat="server">
+                                <img id="p11img" src='<%#Page.ResolveUrl(((System.Xml.XmlNode)Container.DataItem)["IMAGE"].InnerText)%>'
+                                    width="121" height="155" runat="server" /></a>
+                            <h1>
+                                <a id="p11name" href='<%#Page.ResolveUrl(((System.Xml.XmlNode)Container.DataItem)["URL"].InnerText)%>'
+                                    runat="server">
+                                    <%#((System.Xml.XmlNode)Container.DataItem)["NAME"].InnerText%>
+                                </a>
+                            </h1>
+                            <%#((System.Xml.XmlNode)Container.DataItem)["SHORTFEATURES"].InnerText%>
+                            <asp:Label ID="p11summary" runat="server" />
+                            <a id="p11details" class="details" runat="server">Details</a>
+                        </div>
+                    </ItemTemplate>
+                    <FooterTemplate>
+                    </FooterTemplate>
+                </asp:Repeater>
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+        <!-- Right Panel - -->
+        <uc2:right ID="right1" runat="server" />
+        &nbsp;<div class="clear">
+        </div>
+    </div>
+</asp:Content>
