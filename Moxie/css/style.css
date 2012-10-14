@@ -95,11 +95,11 @@ textarea:focus { outline:none;}
 
 .content{ width:940px;}
 .content .img{width:160px; margin:30px auto;}
-.content .welcome{ width:478px; margin:39px 61px 40px 8px; font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#959595; line-height:16px;}
+.content .welcome{ width:478px; margin:39px 61px 40px 8px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#959595; line-height:16px;}
 .content .welcome h1{margin-bottom:18px; color:#454545; font: 18px/24px 'OpenSansRegular', Arial, sans-serif; text-transform:uppercase;}
 
 
-.content .welcome_inner{ width:622px; margin:39px 87px 40px 8px; font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#959595; line-height:16px; min-height:500px;}
+.content .welcome_inner{ width:622px; margin:39px 87px 40px 8px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#959595; line-height:16px; min-height:500px;}
 .content .welcome_inner h1{margin-bottom:18px; color:#454545; font: 18px/24px 'OpenSansRegular', Arial, sans-serif; text-transform:uppercase;}
 
 
@@ -121,7 +121,7 @@ textarea:focus { outline:none;}
 .content .right-panel .rss{ width:202px; margin:30px 0px 0px 0px;  font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#959595; line-height:16px; overflow:hidden; height:225px;}
 .content .right-panel .rss h1{margin-bottom:18px;color:#454545; font: 18px/24px 'OpenSansRegular', Arial, sans-serif; text-transform:uppercase;}
 .content .right-panel .rss span b{ background:url(../images/rss_bg.jpg) no-repeat top left; width:209px; height:40px; padding-left:15px; display:block; margin-bottom:8px; font-weight:normal;padding-bottom:4px;}
-.content .right-panel .rss span b a{font-family:Arial, Helvetica, sans-serif; color:#959595; font-size:11px; text-decoration:none;}
+.content .right-panel .rss span b a{font-family:Arial, Helvetica, sans-serif; color:#959595; font-size:12px; text-decoration:none;}
 .content .right-panel .rss span b a:hover{ color:#007616; text-decoration:none;}
 .content2{ width:908px; margin:0px 16px 20px 16px;  font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#959595; line-height:16px;}
 .content2 h1{margin-bottom:10px; color:#3a3a3a; font: 14px/24px 'OpenSansRegular', Arial, sans-serif; text-transform:uppercase; }
