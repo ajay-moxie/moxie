@@ -13,103 +13,138 @@
         <div class="container_block left">
             <div class="category_block left">
                 <h1>
-                    Lighting Solutions</h1>
-                <div class="product_block left">
-                    <a href="~/products/msld6d/">
-                        <img src="~/products/MSLD6D/MSLD6d.jpg" width="121" height="155" alt="" runat="server" /></a>
-                    <h1>
-                        <a href="~/products/msld6d/" runat="server">Msld6d: Solar LED Lantern Driver</a></h1>
-                    High efficiency &gt; 85%<br />
-                    6V Battery<br />
-                    PWM Dimming<br />
-                    Best suited for commercial 6V SMF solar charged lanterns
-                </div>
-                <div class="product_block left">
-                    <a href="~/products/msld12M/" runat="server">
-                        <img src="~/images/coming-soon.png" width="121" height="155" alt="" runat="server" /></a>
-                    <h1>
-                        <a href="~/products/msld12M/" runat="server">MSLD12M - MNRE Compliance Solar LED Lantern</a></h1>
-                    High efficiency &gt; 85%<br />
-                    12V Battery<br />
-                    MNRE Specifications<br />
-                    
-Best suited for commercial 12V SMF solar charged lanterns/ Govt MNRE Tenders
-                </div>
-                <div class="product_block left">
-                    <a href="~/products/mmc6/" runat="server">
-                        <img src="~/products/mmc6/mmc6.jpg" width="121" height="155" alt="" runat="server" /></a>
-                    <h1>
-                        <a href="#">MMC6 - Solar Lantern Mobile Charger for 6V Battery</a></h1>
-                    Highly efficient constant current driver <br />
-                    Regulated voltage<br />
-                    Low cost/low component count <br />
-                    Best suited for mobile chargers working with 6 V battery 
-                </div>
-                <div class="product_block left">
-                    <a href="~/products/mmc12/" runat="server">
-                        <img src="~/products/mmc12/mmc12.jpg" width="121" height="155" alt="" runat="server" /></a>
-                    <h1>
-                        <a href="~/products/mmc12/" runat="server">MMC12 - Solar Lantern Mobile Charger for 12V Battery</a></h1>
-                    IC regulated, highly efficient constant current driver <br />
-                    Regulated voltage<br />
-                    Low cost/low component count <br />
-                    Best suited for mobile chargers working with 12 V battery 
-                </div>
+                    <asp:Label ID="l0" runat="server" />
+                </h1>
+                <asp:Repeater ID="product0" runat="server">
+                    <HeaderTemplate>
+                    </HeaderTemplate>
+                    <ItemTemplate>
+                        <div class="product_block left">
+                            <a href='<%#Page.ResolveUrl(((System.Xml.XmlNode)Container.DataItem)["URL"].InnerText)%>'>
+                                <img src='<%#Page.ResolveUrl(((System.Xml.XmlNode)Container.DataItem)["IMAGE"].InnerText)%>'
+                                    width="121" height="155" alt="" runat="server" /></a>
+                            <h1>
+                                <a href='<%#Page.ResolveUrl(((System.Xml.XmlNode)Container.DataItem)["URL"].InnerText)%>' runat="server">
+                                    <%#((System.Xml.XmlNode)Container.DataItem)["NAME"].InnerText%></a></h1>
+                            <%#((System.Xml.XmlNode)Container.DataItem)["SHORTFEATURES"].InnerText%>
+                        </div>
+                    </ItemTemplate>
+                    <FooterTemplate>
+                    </FooterTemplate>
+                </asp:Repeater>
                 <div class="clear">
                 </div>
                 <div class="right">
-                    <a href="#" class="view_all">View all Products</a></div>
+                    <a id="caturl0" class="view_all" runat="server">View all Products</a></div>
+            </div>
+            <div class="category_block left">
+                <h1>
+                    <asp:Label ID="l1" runat="server" />
+                </h1>
+                <asp:Repeater ID="product1" runat="server">
+                    <HeaderTemplate>
+                    </HeaderTemplate>
+                    <ItemTemplate>
+                        <div class="product_block left">
+                            <a href='<%#Page.ResolveUrl(((System.Xml.XmlNode)Container.DataItem)["URL"].InnerText)%>'>
+                                <img id="Img1" src='<%#Page.ResolveUrl(((System.Xml.XmlNode)Container.DataItem)["IMAGE"].InnerText)%>'
+                                    width="121" height="155" alt="" runat="server" /></a>
+                            <h1>
+                                <a id="A1" href='<%#Page.ResolveUrl(((System.Xml.XmlNode)Container.DataItem)["URL"].InnerText)%>' runat="server">
+                                    <%#((System.Xml.XmlNode)Container.DataItem)["NAME"].InnerText%></a></h1>
+                            <%#((System.Xml.XmlNode)Container.DataItem)["SHORTFEATURES"].InnerText%>
+                        </div>
+                    </ItemTemplate>
+                    <FooterTemplate>
+                    </FooterTemplate>
+                </asp:Repeater>
+                <div class="clear">
+                </div>
+                <div class="right">
+                    <a id="caturl1" class="view_all" runat="server">View all Products</a></div>
+            </div>
+                <div class="category_block left">
+                <h1>
+                    <asp:Label ID="l2" runat="server" />
+                </h1>
+                <asp:Repeater ID="product2" runat="server">
+                    <HeaderTemplate>
+                    </HeaderTemplate>
+                    <ItemTemplate>
+                        <div class="product_block left">
+                            <a href='<%#Page.ResolveUrl(((System.Xml.XmlNode)Container.DataItem)["URL"].InnerText)%>'>
+                                <img id="Img1" src='<%#Page.ResolveUrl(((System.Xml.XmlNode)Container.DataItem)["IMAGE"].InnerText)%>'
+                                    width="121" height="155" alt="" runat="server" /></a>
+                            <h1>
+                                <a id="A1" href='<%#Page.ResolveUrl(((System.Xml.XmlNode)Container.DataItem)["URL"].InnerText)%>' runat="server">
+                                    <%#((System.Xml.XmlNode)Container.DataItem)["NAME"].InnerText%></a></h1>
+                            <%#((System.Xml.XmlNode)Container.DataItem)["SHORTFEATURES"].InnerText%>
+                        </div>
+                    </ItemTemplate>
+                    <FooterTemplate>
+                    </FooterTemplate>
+                </asp:Repeater>
+                <div class="clear">
+                </div>
+                <div class="right">
+                    <a id="caturl2" class="view_all" runat="server">View all Products</a></div>
+            </div>
+
+            <div class="category_block left">
+                <h1>
+                    <asp:Label ID="l3" runat="server" />
+                </h1>
+                <asp:Repeater ID="product3" runat="server">
+                    <HeaderTemplate>
+                    </HeaderTemplate>
+                    <ItemTemplate>
+                        <div class="product_block left">
+                            <a href='<%#Page.ResolveUrl(((System.Xml.XmlNode)Container.DataItem)["URL"].InnerText)%>'>
+                                <img id="Img1" src='<%#Page.ResolveUrl(((System.Xml.XmlNode)Container.DataItem)["IMAGE"].InnerText)%>'
+                                    width="121" height="155" alt="" runat="server" /></a>
+                            <h1>
+                                <a id="A1" href='<%#Page.ResolveUrl(((System.Xml.XmlNode)Container.DataItem)["URL"].InnerText)%>' runat="server">
+                                    <%#((System.Xml.XmlNode)Container.DataItem)["NAME"].InnerText%></a></h1>
+                            <%#((System.Xml.XmlNode)Container.DataItem)["SHORTFEATURES"].InnerText%>
+                        </div>
+                    </ItemTemplate>
+                    <FooterTemplate>
+                    </FooterTemplate>
+                </asp:Repeater>
+                <div class="clear">
+                </div>
+                <div class="right">
+                    <a id="caturl3" class="view_all" runat="server">View all Products</a></div>
+            </div>
+
+            <div class="category_block left">
+                <h1>
+                    <asp:Label ID="l4" runat="server" />
+                </h1>
+                <asp:Repeater ID="product4" runat="server">
+                    <HeaderTemplate>
+                    </HeaderTemplate>
+                    <ItemTemplate>
+                        <div class="product_block left">
+                            <a href='<%#Page.ResolveUrl(((System.Xml.XmlNode)Container.DataItem)["URL"].InnerText)%>'>
+                                <img id="Img1" src='<%#Page.ResolveUrl(((System.Xml.XmlNode)Container.DataItem)["IMAGE"].InnerText)%>'
+                                    width="121" height="155" alt="" runat="server" /></a>
+                            <h1>
+                                <a id="A1" href='<%#Page.ResolveUrl(((System.Xml.XmlNode)Container.DataItem)["URL"].InnerText)%>' runat="server">
+                                    <%#((System.Xml.XmlNode)Container.DataItem)["NAME"].InnerText%></a></h1>
+                            <%#((System.Xml.XmlNode)Container.DataItem)["SHORTFEATURES"].InnerText%>
+                        </div>
+                    </ItemTemplate>
+                    <FooterTemplate>
+                    </FooterTemplate>
+                </asp:Repeater>
+                <div class="clear">
+                </div>
+                <div class="right">
+                    <a id="caturl4" class="view_all" runat="server">View all Products</a></div>
             </div>
             <div class="divider left">
                 &nbsp;</div>
-            <div class="category_block left">
-                <h1>
-                    Solar and Renewal Energy</h1>
-                <div class="product_block left">
-                    <a href="#">
-                        <img src="~/images/product.jpg" width="121" height="155" alt="" runat="server" /></a>
-                    <h1>
-                        <a href="#">Msld6d</a></h1>
-                    High efficiency &gt; 85%<br />
-                    Low cost<br />
-                    PWM Dimming<br />
-                    Battery reverse
-                </div>
-                <div class="product_block left">
-                    <a href="#">
-                        <img src="~/images/product.jpg" width="121" height="155" alt="" runat="server" /></a>
-                    <h1>
-                        <a href="#">Msld6d</a></h1>
-                    High efficiency &gt; 85%<br />
-                    Low cost<br />
-                    PWM Dimming<br />
-                    Battery reverse
-                </div>
-                <div class="product_block left">
-                    <a href="#">
-                        <img src="~/images/product.jpg" width="121" height="155" alt="" runat="server" /></a>
-                    <h1>
-                        <a href="#">Msld6d</a></h1>
-                    High efficiency &gt; 85%<br />
-                    Low cost<br />
-                    PWM Dimming<br />
-                    Battery reverse
-                </div>
-                <div class="product_block left">
-                    <a href="#">
-                        <img src="~/images/product.jpg" width="121" height="155" alt="" runat="server" /></a>
-                    <h1>
-                        <a href="#">Msld6d</a></h1>
-                    High efficiency &gt; 85%<br />
-                    Low cost<br />
-                    PWM Dimming<br />
-                    Battery reverse
-                </div>
-                <div class="clear">
-                </div>
-                <div class="right">
-                    <a href="#" class="view_all">View all Products</a></div>
-            </div>
             <div class="clear">
             </div>
         </div>
