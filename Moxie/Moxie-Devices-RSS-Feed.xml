@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+	<channel>
+		<title>Moxie Devices Pvt Limited RSS Feed</title>
+		<link>http://www.moxiedevices.com</link>
+		<description>Moxie Devices RSS Feed. Subscribe to get latest</description>
+		<item>
+			<title>Solar Lantern with Dimmer and Mobile Charger</title>
+			<link>http://moxiedevices.com/products/msld6d</link>
+			<description>
+				High efficiency > 85%
+				&lt;br /&gt;
+				PWM Dimming
+				&lt;br /&gt;
+				Protection Circuit
+				&lt;br /&gt;
+				6V SMF solar charged lanterns
+				&lt;br /&gt;
+				Low cost
+			</description>
+
+		</item>
+		<item>
+			<title>LED Solar Lantern with MNRE Specification</title>
+			<link>http://moxiedevices.com/products/msld12m</link>
+			<description>
+				High efficiency > 85%
+				&lt;br /&gt;
+				MNRE Specifications
+				&lt;br /&gt;
+				Protection Circuit
+				&lt;br /&gt;
+				12V SMF solar charged lanterns
+				&lt;br /&gt;
+				Low cost
+			</description>
+		</item>
+
+		<item>
+			<title>Mobile Charger for LED Lanterns</title>
+			<link>http://moxiedevices.com/products/mmc6</link>
+			<description>
+				Constant Current Driver
+				&lt;br /&gt;
+				Regulated voltage
+				&lt;br /&gt;
+				Low power/head dissipation
+				&lt;br /&gt;
+				Mobile chargers working with 6 V battery
+				&lt;br /&gt;
+				Low cost/low component count
+			</description>
+		</item>
+
+	</channel>
+</rss>
+
