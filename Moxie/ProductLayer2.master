@@ -34,7 +34,7 @@
                             </h1>
                             <%#((System.Xml.XmlNode)Container.DataItem)["SHORTFEATURES"].InnerText%>
                             <asp:Label ID="p11summary" runat="server" />
-                            <a id="p11details" class="details" runat="server">Details</a>
+                            <a id="p11details" href='<%#Page.ResolveUrl(((System.Xml.XmlNode)Container.DataItem)["URL"].InnerText)%>' class="details" runat="server">Details</a>
                         </div>
                     </ItemTemplate>
                     <FooterTemplate>
