@@ -10,7 +10,7 @@
 namespace Moxie {
     
     
-    public partial class WebForm6 {
+    public partial class WebForm5 {
         
         /// <summary>
         /// inner_banner1 control.
