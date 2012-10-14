@@ -58,23 +58,166 @@
     <Reference Include="System.Web.Mobile" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Default1.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="css\tabcontent.css" />
+    <Content Include="Global.asax" />
+    <Content Include="images\coming-soon.jpg" />
+    <Content Include="images\coming-soon.png" />
+    <Content Include="images\no-image-available.jpg" />
+    <Content Include="images\product.jpg" />
+    <Content Include="images\product_main_img.jpg" />
+    <Content Include="images\sitemap.gif" />
+    <Content Include="js\tabcontent.js" />
+    <Content Include="Moxie-Devices-RSS-Feed.xml" />
+    <Content Include="products\Consumer-Electronics\Default.aspx" />
+    <Content Include="products\Custom-Solutions-and-Consultancy\Default.aspx" />
+    <Content Include="products\Lighting-Solutions\Default.aspx" />
+    <Content Include="products\MMC12\Default.aspx" />
+    <Content Include="products\MMC12\MMC12.jpg" />
+    <Content Include="products\MMC6\Default.aspx" />
+    <Content Include="products\MMC6\MMC6.jpg" />
+    <Content Include="products\MSLD12M\Default.aspx" />
+    <Content Include="products\MSLD6D\Default.aspx" />
+    <Content Include="products\MSLD6D\MSLD6D.jpg" />
+    <Content Include="products\Power-Back-UP-Solutions\Default.aspx" />
+    <Content Include="products\product3.aspx" />
+    <Content Include="products\default.aspx" />
+    <Content Include="products\product2.aspx" />
+    <Content Include="products\product3test.aspx" />
+    <Content Include="products\Solar-Renewable-Energy\Default.aspx" />
+    <Content Include="products\XML\category.xml" />
+    <Content Include="products\XML\product.xml" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Default1.aspx.cs">
+    <Compile Include="App_Code\common\ConstantVars.cs" />
+    <Compile Include="App_Code\common\EmailHelper.cs" />
+    <Compile Include="App_Code\common\Utils\Utilities.cs" />
+    <Compile Include="App_Code\DAL\DataAccessObject.cs" />
+    <Compile Include="App_Code\model\category.cs" />
+    <Compile Include="App_Code\model\product.cs" />
+    <Compile Include="FinalProduct.master.cs">
+      <DependentUpon>FinalProduct.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
-      <DependentUpon>Default1.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Default1.aspx.designer.cs">
-      <DependentUpon>Default1.aspx</DependentUpon>
+    <Compile Include="FinalProduct.master.designer.cs">
+      <DependentUpon>FinalProduct.master</DependentUpon>
     </Compile>
-    <Compile Include="Moxie.Master.cs">
-      <DependentUpon>Moxie.Master</DependentUpon>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Master.Master.cs">
+      <DependentUpon>Master.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Moxie.Master.designer.cs">
-      <DependentUpon>Moxie.Master</DependentUpon>
+    <Compile Include="Master.Master.designer.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ProductLayer2.master.cs">
+      <DependentUpon>ProductLayer2.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductLayer2.master.designer.cs">
+      <DependentUpon>ProductLayer2.master</DependentUpon>
+    </Compile>
+    <Compile Include="products\Consumer-Electronics\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products\Consumer-Electronics\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="products\Custom-Solutions-and-Consultancy\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products\Custom-Solutions-and-Consultancy\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="products\Lighting-Solutions\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products\Lighting-Solutions\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="products\MMC12\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products\MMC12\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="products\MMC6\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products\MMC6\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="products\MSLD12M\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products\MSLD12M\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="products\MSLD6D\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products\MSLD6D\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="products\Power-Back-UP-Solutions\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products\Power-Back-UP-Solutions\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="products\product3.aspx.cs">
+      <DependentUpon>product3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products\product3.aspx.designer.cs">
+      <DependentUpon>product3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Products.master.cs">
+      <DependentUpon>Products.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Products.master.designer.cs">
+      <DependentUpon>Products.master</DependentUpon>
+    </Compile>
+    <Compile Include="products\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="products\product2.aspx.cs">
+      <DependentUpon>product2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products\product2.aspx.designer.cs">
+      <DependentUpon>product2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="products\product3test.aspx.cs">
+      <DependentUpon>product3test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products\product3test.aspx.designer.cs">
+      <DependentUpon>product3test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="products\Solar-Renewable-Energy\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products\Solar-Renewable-Energy\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="usercontrol\inner_banner.ascx.cs">
@@ -98,26 +241,19 @@
     <Compile Include="usercontrol\rss.ascx.designer.cs">
       <DependentUpon>rss.ascx</DependentUpon>
     </Compile>
-    <Compile Include="company.aspx.cs">
-      <DependentUpon>company.aspx</DependentUpon>
+    <Compile Include="aboutus\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="company.aspx.designer.cs">
-      <DependentUpon>company.aspx</DependentUpon>
+    <Compile Include="aboutus\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ContactUs.aspx.cs">
-      <DependentUpon>ContactUs.aspx</DependentUpon>
+    <Compile Include="contactus\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ContactUs.aspx.designer.cs">
-      <DependentUpon>ContactUs.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="products.aspx.cs">
-      <DependentUpon>products.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="products.aspx.designer.cs">
-      <DependentUpon>products.aspx</DependentUpon>
+    <Compile Include="contactus\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -135,8 +271,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="company.html" />
-    <Content Include="contact.html" />
     <Content Include="css\style.css" />
     <Content Include="images\111.jpg" />
     <Content Include="images\backup.jpg" />
@@ -179,11 +313,9 @@
     <Content Include="images\top_bg.jpg" />
     <Content Include="images\tw-trans.png" />
     <Content Include="images\welcome-trans.png" />
-    <Content Include="index.html" />
     <Content Include="js\jquery.easing.1.3.js" />
     <Content Include="js\jquery.min.js" />
     <Content Include="js\slides.min.jquery.js" />
-    <Content Include="products.html" />
     <Content Include="sitemap.html" />
   </ItemGroup>
   <ItemGroup>
@@ -195,15 +327,17 @@
     <None Include="css\OpenSans-Regular-webfont.svg" />
     <None Include="css\OpenSans-Regular-webfont.ttf" />
     <None Include="css\OpenSans-Regular-webfont.woff" />
-    <Content Include="Moxie.Master" />
+    <Content Include="Master.Master" />
     <Content Include="usercontrol\inner_banner.ascx" />
     <Content Include="usercontrol\right-link.ascx" />
     <Content Include="usercontrol\rss.ascx" />
-    <Content Include="company.aspx" />
-    <Content Include="ContactUs.aspx" />
-    <Content Include="products.aspx" />
+    <Content Include="aboutus\default.aspx" />
+    <Content Include="contactus\default.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="sitemap.aspx" />
+    <Content Include="Products.master" />
+    <Content Include="FinalProduct.master" />
+    <Content Include="ProductLayer2.master" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
