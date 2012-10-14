@@ -17,6 +17,7 @@ namespace Moxie.Common
         public static List<product> ProductList = new List<product>();
         public const string CategoryXML = "~/products/XML/category.xml";
         public const string ProductXML = "~/products/XML/product.xml";
+        public const string RSSXML = "~/Moxie-Devices-RSS-Feed.xml";
         static ConstantVar()
         {
             InitCategory();
