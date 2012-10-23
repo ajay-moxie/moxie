@@ -56,14 +56,14 @@
             <div class="footer_link left">
                 <a href="~/" runat="server">Home</a><a href="~/aboutus" runat="server">comapny</a><a
                     href="~/products" runat="server">Products</a><a href="~/ContactUs" runat="server">Contact</a><a
-                        href="~/sitemap.aspx" class="btm_bdr" runat="server">Sitemap</a></div>
+                        href="~/sitemap/" class="btm_bdr" runat="server">Sitemap</a></div>
             <div class="footer_divider left">
                 <img src="images/footer_divider.jpg" width="4" height="120" alt="" /></div>
             <div class="contact left">
                 Moxie Devices<br />
                 G212, Sector 63, Noida,<br />
                 India - 201301 <span>+91 8860497497<br />
-                    +91 8860498498</span>
+                    +91 8800236052</span>
             </div>
             <div class="footer_divider left">
                 <img src="~/images/footer_divider.jpg" width="4" height="120" alt="" runat="server" /></div>
