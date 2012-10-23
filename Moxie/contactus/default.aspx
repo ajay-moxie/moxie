@@ -69,12 +69,16 @@
                         <td align="center">
                             <asp:Button ID="btnSendmail" runat="server" Text="Send Mail" OnClick="btnSendmail_Click" />
                         </td>
-                        <td>
-                        </td>
+                        <td>&nbsp;</td>
                     </tr>
                 </td>
                 <td>
-                    <div class="contact-address">
+                    
+                </td>
+            </tr>
+        </table>       
+    </div>
+     <div class="contact-address">
                         <strong>Address:</strong>
                         <br />
                         <br />
@@ -86,8 +90,4 @@
                         Phone: &nbsp;&nbsp;+91 8860497497<br />
                         Phone: &nbsp;&nbsp;+91 8800236052<br />
                     </div>
-                </td>
-            </tr>
-        </table>
-    </div>
 </asp:Content>

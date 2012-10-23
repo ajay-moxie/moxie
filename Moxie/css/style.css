@@ -66,7 +66,7 @@ textarea:focus { outline:none;}
 .top_link a{color:#494949; text-decoration:none; height:13px; padding-top:8px;}
 .top_link a:hover{color:#494949; text-decoration:none; border-top:solid 4px #4d9d0f; height:21px; padding-top:8px;}
 
-.banner{ width:100%; height:327px; margin-top:21px;}
+.banner{ width:940px; height:327px; margin-top:21px;}
 .banner-inner { width:100%; height:170px; margin-top:21px;}
 
 .tabs{ width:940px;height:143px;}
@@ -92,6 +92,12 @@ textarea:focus { outline:none;}
 .tab-5{ width:188px; background:#727272; height:143px;}
 .tab-5 ul{ margin:-10px 0px 0px 18px;; padding:0px;}
 .tab-5 ul li{ font-family:Arial, Helvetica, sans-serif; color:#dbdbdb; font-size:13px; list-style-type:square; list-style-position:inside; margin:0 0; line-height:17px;}
+/* Right Link */
+.right_link{font: normal 14px/20px 'OpenSansRegular', Arial, sans-serif; text-transform:uppercase; text-align:left; float:left; width:200px; margin-top:30px;}
+.right_link a{color:#2a8816;padding:6px 0 14px 0; height:31px; border-top:dashed 1px #000;  background:url(../images/right_link_icon.png) no-repeat 100% 18px; text-decoration:none; display:block;}
+.right_link a:hover{ text-decoration:none; color:#b3b3b3; background:url(../images/right_link_icon.png) no-repeat 100% 18px;}
+.link_bold{ font-weight:bold; text-align:left;}
+.bdr_btm{border-bottom:dashed 1px #000;}
 
 .content{ width:940px;}
 .content .img{width:160px; margin:30px auto;}
@@ -228,7 +234,7 @@ a.sitemap-home:hover   { color:#333333;}
 
 /*  Category Block   */
 .content_inr{ width:940px; margin-top:30px;}
-.container_block{border-right:solid 1px #d4d4d4; display:block; width:732px; margin-top:30px;}
+.container_block{border-right:solid 1px #d4d4d4; display:block; width:720px; margin-top:30px; margin-right:19px;}
 .category_block{ width:716px; margin:0px 16px 0px 16px;}
 .category_block h1{color:#2a8816; font: normal 20px/24px 'OpenSansRegular', Arial, sans-serif; text-transform:uppercase; padding:0px 0 24px 0;}
 .product_block{ width:121px; margin:0 55px 0 0; font-family:Arial, Helvetica, sans-serif; color:#6b6b6b; font-size:12px; line-height:20px;}
@@ -253,7 +259,7 @@ a.sitemap-home:hover   { color:#333333;}
 .download_datasheet{width:675px; text-align:right;}
 .download_datasheet a{ color:#1684d9; text-decoration:underline;}
 .contactu{ font-size:14px!important; color:#4e9d0e!important;}
-form{ display:block; width:400px; float:left;}
+form{ display:block; width:940px; float:left;}
 .input{ background:#fff; padding:2px 0 0 6px; border:solid 1px #ccc; height:20px; width:280px; color:#828282; text-transform:uppercase; margin:4px;}
 .text_area{ background:#fff; padding:2px 0 0 6px; border:solid 1px #ccc; height:26px; width:280px; color:#828282; text-transform:uppercase; margin:4px; height:50px;}
 form label{color:#828282; text-transform:uppercase; margin:15px 30px 15px 0;}
