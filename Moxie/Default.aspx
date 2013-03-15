@@ -22,8 +22,9 @@
             <div class="slides_container">
                 <img src="images/banner.jpg" width="940" height="327" alt="Slide 1">
                 <img src="images/banner-2.jpg" width="940" height="327" alt="Slide 2">
-                <img src="images/banner-4.jpg" width="940" height="327" alt="Slide 3">
+                <img src="images/banner-4.jpg" width="940" height="327" alt="Slide 4">
                 <img src="images/banner-3.jpg" width="940" height="327" alt="Slide 3">
+                <img src="images/banner-5.jpg" width="940" height="327" alt="Slide 5">
             </div>
         </div>
     </div>
