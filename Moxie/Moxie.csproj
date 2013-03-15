@@ -78,8 +78,8 @@
     <Content Include="products\Consumer-Electronics\Default.aspx" />
     <Content Include="products\Custom-Solutions-and-Consultancy\Default.aspx" />
     <Content Include="products\Lighting-Solutions\Default.aspx" />
-    <Content Include="products\Lighting-Solutions\MMC12\Default.aspx" />
-    <Content Include="products\Lighting-Solutions\MMC12\MMC12.jpg" />
+    <Content Include="products\MMC12\Default.aspx" />
+    <Content Include="products\MMC12\MMC12.jpg" />
     <Content Include="products\MMC6\Default.aspx" />
     <Content Include="products\MMC6\MMC6.jpg" />
     <Content Include="products\MMCAC6V5A\Default.aspx" />
@@ -161,11 +161,10 @@
     <Compile Include="products\Lighting-Solutions\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="products\Lighting-Solutions\MMC12\Default.aspx.cs">
+    <Compile Include="products\MMC12\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="products\Lighting-Solutions\MMC12\Default.aspx.designer.cs">
+    <Compile Include="products\MMC12\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="products\MMC6\Default.aspx.cs">
