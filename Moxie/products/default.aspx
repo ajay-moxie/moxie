@@ -13,7 +13,7 @@
         <div class="container_block left">
             <div class="category_block left">
                 <h1>
-                    <asp:Label ID="l0" runat="server" />
+                    <a id="cat0url" class="view_all" runat="server"><asp:Label ID="l0" runat="server" /></a>
                 </h1>
                 <asp:Repeater ID="product0" runat="server">
                     <HeaderTemplate>
@@ -39,7 +39,7 @@
             </div>
             <div class="category_block left">
                 <h1>
-                    <asp:Label ID="l1" runat="server" />
+                    <a id="cat1url" class="view_all" runat="server"><asp:Label ID="l1" runat="server" /></a>
                 </h1>
                 <asp:Repeater ID="product1" runat="server">
                     <HeaderTemplate>
@@ -65,7 +65,7 @@
             </div>
                 <div class="category_block left">
                 <h1>
-                    <asp:Label ID="l2" runat="server" />
+                    <a id="cat2url" class="view_all" runat="server"><asp:Label ID="l2" runat="server" /></a>
                 </h1>
                 <asp:Repeater ID="product2" runat="server">
                     <HeaderTemplate>
@@ -92,7 +92,7 @@
 
             <div class="category_block left">
                 <h1>
-                    <asp:Label ID="l3" runat="server" />
+                    <a id="cat3url" class="view_all" runat="server"><asp:Label ID="l3" runat="server" /></a>
                 </h1>
                 <asp:Repeater ID="product3" runat="server">
                     <HeaderTemplate>
@@ -119,7 +119,7 @@
 
             <div class="category_block left">
                 <h1>
-                    <asp:Label ID="l4" runat="server" />
+                    <a id="cat4url" class="view_all" runat="server"><asp:Label ID="l4" runat="server" /></a>
                 </h1>
                 <asp:Repeater ID="product4" runat="server">
                     <HeaderTemplate>

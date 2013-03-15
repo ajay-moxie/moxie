@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <HEADER>
-	<PRODUCT CATEGORY="_0_,_1_,_2_,_3_,_4_" NAME="MSLD6D">
+	<PRODUCT CATEGORY="_0_top_,_1_" NAME="MSLD6D">
 		<NAME>MSLD6D</NAME>
 		<SUMMARY>"Solar Lantern LED Driver and SMF Battery Charger with PWM Dimming, mobile phone charging"</SUMMARY>
 		<FEATURES>
@@ -45,7 +45,64 @@
 		<IMAGE>~/products/MSLD6D/MSLD6D.jpg</IMAGE>
 		<URL>~/products/MSLD6D/</URL>
 	</PRODUCT>
-	<PRODUCT CATEGORY="_0_,_1_,_2_,_3_,_4_"  NAME="MSLD12M">
+	<PRODUCT CATEGORY="_0_top_,_1_,_4_top_" NAME="MSLD63D">
+		<NAME>MSLD63D</NAME>
+		<SUMMARY>"Constant Current Constant Voltage Solar Lantern LED driver with protection circuit, three stage dimmer"</SUMMARY>
+		<FEATURES>
+			High efficiency > 85%
+			&lt;br /&gt;
+			Constant Current/Constant Voltage LED driver
+			&lt;br /&gt;
+			Three Stage Dimming – (300mA, 200 mA, 100 mA)
+			&lt;br /&gt;
+			Input – 6V SMF(5.25V to 6.5V)
+			&lt;br /&gt;
+			Output Voltage: 9.6V(Boost)
+			&lt;br /&gt;
+			High and Low Voltage Cutoff – 5.25V and 6.5V
+			&lt;br /&gt;
+			Energy Efficient – no power consumption during off mode
+			&lt;br /&gt;
+			Battery Over Voltage Protection
+			&lt;br /&gt;
+			Battery Reverse Charging Protection
+			&lt;br /&gt;
+			Mobile Charger(O/P 5.5V, 350mA)
+			&lt;br /&gt;
+		</FEATURES>
+		<SHORTFEATURES>
+			High efficiency > 85%
+			&lt;br /&gt;
+			Constant Current/Constant Voltage LED driver
+			&lt;br /&gt;
+			3 Stage Dimming
+			&lt;br /&gt;
+			Protection Circuit
+			&lt;br /&gt;
+			6V SMF solar charged lanterns
+			&lt;br /&gt;
+			Low cost
+		</SHORTFEATURES>
+		<APPLICATION>
+			MSLD63D is a high efficiency  LED driver with SMF battery Charging for 6V SMF battery and efficient three stage Dimming Control.
+
+			&lt;br /&gt;
+			&lt;br /&gt;
+			Its high/low voltage control, state of art protection circuit for Battery Reverse Charging and Battery Over Voltage.
+			&lt;br /&gt;
+			&lt;br /&gt;
+
+			This is best suited for designing of Solar Lanterns, powered with 6V SMF battery.
+			&lt;br /&gt;
+			&lt;br /&gt;
+			It can drive LED string with output power .96W to 3.4W. For best efficiency use LED strips in series each having forward voltage,Vf(Typ) 3.2 V
+
+		</APPLICATION>
+		<DATASHEET>~/products/MSLD63D/MSLD63D_DataSheet.pdf</DATASHEET>
+		<IMAGE>~/products/MSLD63D/MSLD63D.jpg</IMAGE>
+		<URL>~/products/MSLD63D/</URL>
+	</PRODUCT>
+	<PRODUCT CATEGORY="_0_top_,_1_"  NAME="MSLD12M">
 		<NAME>MSLD12M</NAME>
 		<SUMMARY>MNRE Compliant Solar Lantern LED Driver and Battery Charger</SUMMARY>
 		<FEATURES>
@@ -89,10 +146,10 @@
 			It can drive LED string with output power 2W to 3.5W
 		</APPLICATION>
 		<DATASHEET>~/products/MSLD6D/MSLD6D_DataSheet.pdf</DATASHEET>
-		<IMAGE>~/products/MSLD6D/MSLD6D.jpg</IMAGE>
+		<IMAGE>~/images/no-image-available.jpg</IMAGE>
 		<URL>~/products/MSLD12M/</URL>
 	</PRODUCT>
-	<PRODUCT CATEGORY="_0_,_1_,_2_,_3_,_4_"  NAME="MMC6">
+	<PRODUCT CATEGORY="_0_,_2_top_"  NAME="MMC6">
 		<NAME>MMC6</NAME>
 		<SUMMARY>MMC6 - Mobile Charger for 6V Battery</SUMMARY>
 		<FEATURES>
@@ -101,7 +158,7 @@
 			Regulated voltage
 			&lt;br /&gt;
 			Low power dissipation
-			&lt;br /&gt;
+			&lt;br /&gt;	
 			Low heat dissipation
 			&lt;br /&gt;
 			Wide range ambient temperature
@@ -129,7 +186,7 @@
 		<IMAGE>~/products/MMC6/MMC6.jpg</IMAGE>
 		<URL>~/products/MMC6/</URL>
 	</PRODUCT>
-	<PRODUCT CATEGORY="_0_,_1_,_2_,_3_,_4_"  NAME="MMC12">
+	<PRODUCT CATEGORY="_0_,_2_top_"  NAME="MMC12">
 		<NAME>MMC12</NAME>
 		<SUMMARY>MMC12 - Mobile Charger for 12V Battery</SUMMARY>
 		<FEATURES>
@@ -165,5 +222,191 @@
 		<DATASHEET>~/products/MMC12/MMC12_DataSheet.pdf</DATASHEET>
 		<IMAGE>~/products/MMC12/MMC12.jpg</IMAGE>
 		<URL>~/products/MMC12/</URL>
+	</PRODUCT>
+	<PRODUCT CATEGORY="_2_top_" NAME="MMCAC6V5A">
+		<NAME>MMCAC6V5A</NAME>
+		<SUMMARY>"Mobile Charger with AC input and 6V 500 mA output"</SUMMARY>
+		<FEATURES>
+			Highly Efficient
+			&lt;br /&gt;
+			IC Based
+			&lt;br /&gt;
+			Regulated Constant Voltage
+			&lt;br /&gt;
+			Regulated Constant Current
+			&lt;br /&gt;
+			Battery over voltage protection
+			&lt;br /&gt;
+			Best suited for mobile charger design
+			&lt;br /&gt;
+			Solder free design
+			&lt;br /&gt;
+			LED Indicator
+			&lt;br /&gt;
+			Low cost
+			
+		</FEATURES>
+		<SHORTFEATURES>
+			IC Based Mobile Charger
+			&lt;br /&gt;
+			SMPS
+			&lt;br /&gt;
+			Constant Current/ Constant Voltage
+			&lt;br /&gt;
+			6V / 500 mA output
+			&lt;br /&gt;
+			Low cost
+		</SHORTFEATURES>
+		<APPLICATION>
+			MMCAC6V5A is a high efficiency IC regulated solution for Mobile charger. It has simple but efficient and sleek design makes it suitable smart and high quality mobile charger.
+			&lt;br /&gt;
+			&lt;br /&gt;
+			This is best suited for designing of low cost efficient Constant Voltage Constant Current Mobile Charger
+		</APPLICATION>
+		<DATASHEET>~/products/MMCAC6V5A/MMCAC6V5A_DataSheet.pdf</DATASHEET>
+		<IMAGE>~/products/MMCAC6V5A/MMCAC6V5A.jpg</IMAGE>
+		<URL>~/products/MMCAC6V5A/</URL>
+	</PRODUCT>
+	<PRODUCT CATEGORY="_2_top_,_4_top_" NAME="MMCAC8V5A">
+		<NAME>MMCAC8V5A</NAME>
+		<SUMMARY>"Power Adaptor with AC input and 8V 500 mA output"</SUMMARY>
+		<FEATURES>
+			Highly Efficient
+			&lt;br /&gt;
+			IC Based
+			&lt;br /&gt;
+			Regulated Constant Voltage
+			&lt;br /&gt;
+			Regulated Constant Current
+			&lt;br /&gt;
+			Battery over voltage protection
+			&lt;br /&gt;
+			Best suited for Power Adaptor design
+			&lt;br /&gt;
+			Solder free design
+			&lt;br /&gt;
+			LED Indicator
+			&lt;br /&gt;
+			Low cost
+
+		</FEATURES>
+		<SHORTFEATURES>
+			IC Based Power Adaptor
+			&lt;br /&gt;
+			SMPS
+			&lt;br /&gt;
+			Constant Current/ Constant Voltage
+			&lt;br /&gt;
+			8V / 500 mA output
+			&lt;br /&gt;
+			Low cost
+		</SHORTFEATURES>
+		<APPLICATION>
+			MMCAC8V5A is a high efficiency IC regulated solution for Power Adaptor. It has simple but efficient and sleek design makes it suitable smart and high quality Power Adaptor.
+			&lt;br /&gt;
+			&lt;br /&gt;
+			This is best suited for designing of low cost efficient Constant Voltage Constant Current Power Adaptor
+		</APPLICATION>
+		<DATASHEET>~/products/MMCAC8V5A/MMCAC8V5A_DataSheet.pdf</DATASHEET>
+		<IMAGE>~/products/MMCAC8V5A/MMCAC8V5A.jpg</IMAGE>
+		<URL>~/products/MMCAC8V5A/</URL>
+	</PRODUCT>
+	<PRODUCT CATEGORY="_1_top_" NAME="MSLD62M-FULL-LANTERN">
+		<NAME>MSLD62M-FULL-LANTERN</NAME>
+		<SUMMARY>"Solar LED Lantern with 6V SMF Battery, 1-3 W solar panel, 154 Lumen, mobile phone charging"</SUMMARY>
+		<FEATURES>
+			&lt;table border="1" color="black" &gt;
+			&lt;tr&gt;
+			&lt;td rowspan="4"&gt;Battery&lt;/td&gt;
+			&lt;td&gt;Type&lt;/td&gt;
+			&lt;td&gt;SMF Lead Acid&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+			&lt;td&gt;Voltage&lt;/td&gt;
+			&lt;td&gt;6 Volt&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+			&lt;td&gt;Capability&lt;/td&gt;
+			&lt;td&gt;4.5AH&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+			&lt;td&gt;Make&lt;/td&gt;
+			&lt;td&gt;LEON/AMCO&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+			&lt;td rowspan="5"&gt;LED&lt;/td&gt;
+			&lt;td&gt;MAKE&lt;/td&gt;
+			&lt;td&gt;OSRAM&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+			&lt;td&gt;Watt&lt;/td&gt;
+			&lt;td&gt;1-3 W&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+			&lt;td&gt;Lumen&lt;/td&gt;
+			&lt;td&gt;154&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+			&lt;td&gt;Angle&lt;/td&gt;
+			&lt;td&gt;270&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+			&lt;td&gt;Quantity&lt;/td&gt;
+			&lt;td&gt;2Nos&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+			&lt;td&gt;Solar Panel&lt;/td&gt;
+			&lt;td&gt;Poly Crystalline Solar Cell with wire and DC connector&lt;/td&gt;
+			&lt;td&gt;3W&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+			&lt;td rowspan="3"&gt;PCB&lt;/td&gt;
+			&lt;td&gt;Step up mode&lt;/td&gt;
+			&lt;td rowspan="3"&gt;Double Side &lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+			&lt;td&gt;Diversity mode&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+			&lt;td&gt;Cell phone charger&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+			&lt;td rowspan="2"&gt;PCB&lt;/td&gt;
+			&lt;td&gt;High Mode&lt;/td&gt;
+			&lt;td&gt;10 Hours &lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+			&lt;td&gt;Low Mode&lt;/td&gt;
+			&lt;td&gt;160 Hours &lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+			&lt;td&gt;Colour&lt;/td&gt;
+			&lt;td rowspan="2"&gt;Different Colour models are possible &lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;/table&gt;
+			&lt;br /&gt;
+		</FEATURES>
+		<SHORTFEATURES>
+			Battery 6V SMF,4AH
+			&lt;br /&gt;
+			LED OSRAM, 1-3W
+			&lt;br /&gt;
+			Solar Panel Poly Crystalling, 3W
+			&lt;br /&gt;
+			PCB Double Sided
+			&lt;br /&gt;
+			Mobile Charger
+			&lt;br /&gt;
+		</SHORTFEATURES>
+		<APPLICATION>
+			MSLD62M FULL LANTERN is based on MSLD62M LED driver. Lantern have sleek and smart design.
+			&lt;br /&gt;
+			&lt;br /&gt;
+			This is best suited for commercial market with efficient but low cost lantern.
+			It can drive LED string with output power 1 to 3W,
+		</APPLICATION>
+		<DATASHEET>~/products/MSLD62M-FULL-LANTERN/MSLD62M-FULL-LANTERN_DataSheet.pdf</DATASHEET>
+		<IMAGE>~/products/MSLD62M-FULL-LANTERN/MSLD62M-FULL-LANTERN.jpg</IMAGE>
+		<URL>~/products/MSLD62M-FULL-LANTERN/</URL>
 	</PRODUCT>
 </HEADER>

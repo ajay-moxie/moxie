@@ -22,6 +22,15 @@ namespace Moxie {
         protected global::Moxie.usercontrol.inner_banner inner_banner1;
         
         /// <summary>
+        /// cat0url control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor cat0url;
+        
+        /// <summary>
         /// l0 control.
         /// </summary>
         /// <remarks>
@@ -47,6 +56,15 @@ namespace Moxie {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor caturl0;
+        
+        /// <summary>
+        /// cat1url control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor cat1url;
         
         /// <summary>
         /// l1 control.
@@ -76,6 +94,15 @@ namespace Moxie {
         protected global::System.Web.UI.HtmlControls.HtmlAnchor caturl1;
         
         /// <summary>
+        /// cat2url control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor cat2url;
+        
+        /// <summary>
         /// l2 control.
         /// </summary>
         /// <remarks>
@@ -103,6 +130,15 @@ namespace Moxie {
         protected global::System.Web.UI.HtmlControls.HtmlAnchor caturl2;
         
         /// <summary>
+        /// cat3url control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor cat3url;
+        
+        /// <summary>
         /// l3 control.
         /// </summary>
         /// <remarks>
@@ -128,6 +164,15 @@ namespace Moxie {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor caturl3;
+        
+        /// <summary>
+        /// cat4url control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor cat4url;
         
         /// <summary>
         /// l4 control.
