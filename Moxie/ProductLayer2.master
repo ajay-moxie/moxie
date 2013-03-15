@@ -32,9 +32,14 @@
                                     <%#((System.Xml.XmlNode)Container.DataItem)["NAME"].InnerText%>
                                 </a>
                             </h1>
+                            <p class="right">
+                                <a id="A1" href='<%#Page.ResolveUrl(((System.Xml.XmlNode)Container.DataItem)["URL"].InnerText)%>'
+                                    runat="server">Details--></a>
+                            </p>
+                            <br />
                             <%#((System.Xml.XmlNode)Container.DataItem)["SHORTFEATURES"].InnerText%>
                             <asp:Label ID="p11summary" runat="server" />
-                            <a id="p11details" href='<%#Page.ResolveUrl(((System.Xml.XmlNode)Container.DataItem)["URL"].InnerText)%>' class="details" runat="server">Details</a>
+                            <!--<a id="p11details" href='<%#Page.ResolveUrl(((System.Xml.XmlNode)Container.DataItem)["URL"].InnerText)%>' class="details bottom" runat="server">Details</a>-->
                         </div>
                     </ItemTemplate>
                     <FooterTemplate>
