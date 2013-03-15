@@ -159,9 +159,9 @@
                 </div>
                 <div class="divider left">
                     &nbsp;</div>
-                <!--<h1>
-                    Other Similar Product</h1>-->
-                <!--<div class="product_block left">
+                <h1>
+                    Other Similar Product</h1>
+                <div class="product_block left">
                     <a href="#">
                         <img id="Img2" src="~/images/product.jpg" runat="server" width="121" height="155"
                             alt="" /></a>
@@ -204,9 +204,9 @@
                     Low cost<br />
                     PWM Dimming<br />
                     Battery reverse <a href="#" class="details">Details</a>
-                </div>-->
+                </div>
             </div>
-        </div>
+            <</div>
         <!--    Right Panel   -->
         <uc2:right ID="right2" runat="server" />
         <div class="clear">
