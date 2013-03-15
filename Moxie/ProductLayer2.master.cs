@@ -15,7 +15,8 @@ namespace Moxie
     public partial class ProductLayer2 : System.Web.UI.MasterPage
     {
         public string CID = "_0_";
-        
+        public string inner_image_source = "~/images/inner101.png";
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -29,6 +30,7 @@ namespace Moxie
 
                     product.DataSource = nodes;
                     product.DataBind();
+                    inner_banner1.imgsrc = inner_image_source;
                 }
                 catch (Exception ex)
                 {
