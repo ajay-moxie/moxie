@@ -62,30 +62,49 @@
     <Content Include="Global.asax" />
     <Content Include="images\coming-soon.jpg" />
     <Content Include="images\coming-soon.png" />
+    <Content Include="images\favicon.ico" />
+    <Content Include="images\inner1.jpg" />
+    <Content Include="images\inner10.png" />
+    <Content Include="images\inner101.png" />
+    <Content Include="images\lighting-inner.png" />
+    <Content Include="images\MSLD63D.jpg" />
     <Content Include="images\no-image-available.jpg" />
     <Content Include="images\product.jpg" />
     <Content Include="images\product_main_img.jpg" />
     <Content Include="images\sitemap.gif" />
+    <Content Include="images\solar-inner.png" />
     <Content Include="js\tabcontent.js" />
     <Content Include="Moxie-Devices-RSS-Feed.xml" />
     <Content Include="products\Consumer-Electronics\Default.aspx" />
     <Content Include="products\Custom-Solutions-and-Consultancy\Default.aspx" />
     <Content Include="products\Lighting-Solutions\Default.aspx" />
-    <Content Include="products\MMC12\Default.aspx" />
-    <Content Include="products\MMC12\MMC12.jpg" />
+    <Content Include="products\Lighting-Solutions\MMC12\Default.aspx" />
+    <Content Include="products\Lighting-Solutions\MMC12\MMC12.jpg" />
     <Content Include="products\MMC6\Default.aspx" />
     <Content Include="products\MMC6\MMC6.jpg" />
-    <Content Include="products\MSLD12M\Default.aspx" />
+    <Content Include="products\MMCAC6V5A\Default.aspx" />
+    <Content Include="products\MMCAC6V5A\MMCAC6V5A.jpg" />
+    <Content Include="products\MMCAC8V5A\Default.aspx" />
+    <Content Include="products\MMCAC8V5A\MMCAC8V5A.jpg" />
+    <Content Include="products\MSLD12D\Default.aspx" />
+    <Content Include="products\MSLD62M-FULL-LANTERN\Default.aspx" />
+    <Content Include="products\MSLD62M-FULL-LANTERN\MSLD62M-FULL-LANTERN.jpg" />
+    <Content Include="products\MSLD63D\Default.aspx" />
+    <Content Include="products\MSLD63D\MSLD63D.jpg" />
     <Content Include="products\MSLD6D\Default.aspx" />
     <Content Include="products\MSLD6D\MSLD6D.jpg" />
     <Content Include="products\Power-Back-UP-Solutions\Default.aspx" />
     <Content Include="products\product3.aspx" />
     <Content Include="products\default.aspx" />
     <Content Include="products\product2.aspx" />
-    <Content Include="products\product3test.aspx" />
     <Content Include="products\Solar-Renewable-Energy\Default.aspx" />
-    <Content Include="products\XML\category.xml" />
-    <Content Include="products\XML\product.xml" />
+    <Content Include="products\XML\category.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="products\XML\product.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="sitemap\Default.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -142,11 +161,11 @@
     <Compile Include="products\Lighting-Solutions\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="products\MMC12\Default.aspx.cs">
+    <Compile Include="products\Lighting-Solutions\MMC12\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="products\MMC12\Default.aspx.designer.cs">
+    <Compile Include="products\Lighting-Solutions\MMC12\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="products\MMC6\Default.aspx.cs">
@@ -156,11 +175,39 @@
     <Compile Include="products\MMC6\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="products\MSLD12M\Default.aspx.cs">
+    <Compile Include="products\MMCAC6V5A\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="products\MSLD12M\Default.aspx.designer.cs">
+    <Compile Include="products\MMCAC6V5A\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="products\MMCAC8V5A\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products\MMCAC8V5A\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="products\MSLD12D\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products\MSLD12D\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="products\MSLD62M-FULL-LANTERN\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products\MSLD62M-FULL-LANTERN\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="products\MSLD63D\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products\MSLD63D\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="products\MSLD6D\Default.aspx.cs">
@@ -205,13 +252,6 @@
     <Compile Include="products\product2.aspx.designer.cs">
       <DependentUpon>product2.aspx</DependentUpon>
     </Compile>
-    <Compile Include="products\product3test.aspx.cs">
-      <DependentUpon>product3test.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="products\product3test.aspx.designer.cs">
-      <DependentUpon>product3test.aspx</DependentUpon>
-    </Compile>
     <Compile Include="products\Solar-Renewable-Energy\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -220,6 +260,13 @@
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sitemap\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sitemap\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="usercontrol\inner_banner.ascx.cs">
       <DependentUpon>inner_banner.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -341,6 +388,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="products\MSLD62M\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
