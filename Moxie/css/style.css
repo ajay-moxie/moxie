@@ -237,7 +237,7 @@ a.sitemap-home:hover   { color:#333333;}
 .container_block{border-right:solid 1px #d4d4d4; display:block; width:720px; margin-top:30px; margin-right:19px;}
 .category_block{ width:716px; margin:0px 16px 0px 16px;}
 .category_block h1{color:#2a8816; font: normal 20px/24px 'OpenSansRegular', Arial, sans-serif; text-transform:uppercase; padding:0px 0 24px 0;}
-.product_block{ width:121px; margin:0 55px 0 0; font-family:Arial, Helvetica, sans-serif; color:#6b6b6b; font-size:12px; line-height:20px;}
+.product_block{ width:121px; margin:0 55px 50px 0px; border:2px; outline:1; outline-width:medium; font-family:Arial, Helvetica, sans-serif; color:#6b6b6b; font-size:12px; line-height:20px;}
 .product_block img{ border:0px;}
 .product_block h1{color:#2a8816; font: normal 16px/24px 'OpenSansRegular', Arial, sans-serif; text-transform:uppercase; padding:14px 0 8px 0;}
 .product_block h1 a{color:#2a8816; text-decoration:none;}
