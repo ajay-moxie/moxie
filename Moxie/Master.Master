@@ -7,6 +7,7 @@
     <title>Moxie Devices: Innovative solutions for LED Lighting, LED Driver, Solar and Renewable
         Energy, Power Backup, Consumer Electronics</title>
     <link href="~/css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" type="image/ico" href="/favicon.ico"  runat="server"/>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <!--[if lt IE 7]>
@@ -23,7 +24,7 @@
                     <img src="~/images/logo-trans.png" alt="Moxie" runat="server" /></a></div>
             <div class="top_link right">
                 <a href="~/" title="Home" runat="server">Home</a><span>|</span><a href="~/aboutus"
-                    title="Company" runat="server">Company</a><span>|</span><a href="~/products/" title="Products"
+                    title="About Us" runat="server">About Us</a><span>|</span><a href="~/products/" title="Products"
                         runat="server">Products</a><span>|</span><a href="~/products/Custom-Solutions-and-Consultancy/" title="Services" runat="server">Services</a><span>|</span><a href="~/ContactUs" title="Contact" runat="server">Contact</a>
             </div>
         </div>
@@ -70,7 +71,7 @@
             <div class="social left">
                 <a href="http://www.facebook.com/" target="_blank">
                     <img src="~/images/fb-trans.png" alt="" runat="server" /></a><a href="https://twitter.com/"
-                        target="_blank"><img src="~/images/tw-trans.png" alt="" runat="server" /></a><a href="http://www.linkedin.com/"
+                        target="_blank"><img src="~/images/tw-trans.png" alt="" runat="server" /></a><a href="http://in.linkedin.com/pub/moxie-devices/59/835/351"
                             target="_blank"><img src="~/images/in-trans.png" alt="" runat="server" /></a><a href="https://plus.google.com/"
                                 target="_blank"><img src="~/images/gplus-trans.png" alt="" runat="server" /></a></div>
         </div>
