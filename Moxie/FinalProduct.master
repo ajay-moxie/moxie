@@ -160,8 +160,8 @@
                 <div class="divider left">
                     &nbsp;</div>
                 <!--<h1>
-                    Other Similar Product</h1>-->
-                <!--<div class="product_block left">
+                    Other Similar Product</h1>
+                <div class="product_block left">
                     <a href="#">
                         <img id="Img2" src="~/images/product.jpg" runat="server" width="121" height="155"
                             alt="" /></a>

@@ -163,6 +163,7 @@
     </Compile>
     <Compile Include="products\MMC12\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="products\MMC12\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>

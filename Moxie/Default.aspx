@@ -84,7 +84,8 @@
         <div class="welcome left">
             <h1>
                 Welcome</h1>
-            There is a huge potential of how technology can help in meeting India's growing
+        
+                There is a huge potential of how technology can help in meeting India's growing
             energy needs using renewable energy sources. The demand of LED and solar products
             is increasing all over the world and there is a huge knowledge gap as most of the
             current solutions are inefficient using discrete electronics components only.
