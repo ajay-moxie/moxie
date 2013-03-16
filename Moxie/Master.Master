@@ -23,9 +23,9 @@
                 <a href="~/" title="Moxie" runat="server">
                     <img src="~/images/logo-trans.png" alt="Moxie" runat="server" /></a></div>
             <div class="top_link right">
-                <a href="~/" title="Home" runat="server">Home</a><span>|</span><a href="~/aboutus"
-                    title="About Us" runat="server">About Us</a><span>|</span><a href="~/products/" title="Products"
-                        runat="server">Products</a><span>|</span><a href="~/products/Custom-Solutions-and-Consultancy/" title="Services" runat="server">Services</a><span>|</span><a href="~/ContactUs" title="Contact" runat="server">Contact</a>
+                <a href="~/" title="Home" runat="server"><b>Home</b></a><span>|</span><a href="~/aboutus"
+                    title="About Us" runat="server"><b>About Us</b></a><span>|</span><a href="~/products/" title="Products"
+                        runat="server"><b>Products</b></a><span>|</span><a href="~/products/Custom-Solutions-and-Consultancy/" title="Services" runat="server"><b>Services</b></a><span>|</span><a href="~/ContactUs" title="Contact" runat="server"><b>Contact Us</b></a>
             </div>
         </div>
         <div class="clear">
