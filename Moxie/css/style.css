@@ -74,9 +74,9 @@ textarea:focus { outline:none;}
 .heading a{color:#fff; text-decoration:none;}
 .tab-1{ width:235px; background:#4d4d4d; height:110px;}
 
-.tab-1 ul{ margin:-10px 0px 0px 18px;; padding:0px;}
+.tab-1 ul{ margin:-10px 0px 0px 18px; padding:0px;}
 .tab-1 ul li{ font-family:Arial, Helvetica, sans-serif; color:#dbdbdb; font-size:13px; list-style-type:square; list-style-position:inside; margin:0 0; line-height:17px;}
-
+.tab-1 ul li a{padding:6px 0 14px 0; height:31px; text-decoration:none;}
 .tab-2{ width:235px; background:#555555; height:110px;}
 .tab-2 ul{ margin:-10px 0px 0px 18px;; padding:0px;}
 .tab-2 ul li{ font-family:Arial, Helvetica, sans-serif; color:#dbdbdb; font-size:13px; list-style-type:square; list-style-position:inside; margin:0 0; line-height:17px;}

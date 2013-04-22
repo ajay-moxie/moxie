@@ -41,37 +41,48 @@
     <div class="tabs">
         <div class="tab-1 left">
             <span class="heading"><a href="~/products/Lighting-Solutions/" title="Lighting Solutions"
-                runat="server"><br/>LED Lighting</a></span>
+                runat="server">
+                <br />
+                LED Lighting</a></span>
             <ul>
-                <li>DC/DC</li>
-                <li>AC/DC</li>
+                <li><a href="~/products/Lighting-Solutions/" title="Lighting Solutions" runat="server">
+                    DC/DC</a></li>
+                <li><a href="~/products/Lighting-Solutions/" title="Lighting Solutions" runat="server">
+                    AC/DC</a></li>
             </ul>
         </div>
         <div class="tab-2 left">
-            <span class="heading"><a href="~/products/Solar-Renewable-Energy/" title="Solar and Renewable energy"
-                runat="server"><br/>Power Supply</a></span>
+            <span class="heading"><a href="~/products/Power-Back-UP-Solutions/" title="Power back-up Solutions"
+                runat="server">
+                <br />
+                Power Supply</a></span>
             <ul>
-                <li>DC/DC</li>
-                <li>AC/DC</li>
-                <!--
-<li>Special drivers</li>
-<li>Power back-up drivers</li>
--->
+                <li><a href="~/products/Power-Back-UP-Solutions/" title="Power back-up Solutions"
+                    runat="server">DC/DC</a></li>
             </ul>
         </div>
         <div class="tab-3 left">
-            <span class="heading"><a href="~/products/Power-Back-UP-Solutions/" title="Power back-up Solutions"
-                runat="server"><br/>Photovoltaic</a></span>
+            <span class="heading"><a href="~/products/Solar-Renewable-Energy/" title="Solar and Renewable energy"
+                runat="server">
+                <br />
+                Photovoltaic</a></span>
             <ul>
-                <li>DC</li>
+                <li><a href="~/products/Solar-Renewable-Energy/" title="Solar and Renewable energy"
+                    runat="server">DC/DC</a></li>
+                <li><a href="~/products/Solar-Renewable-Energy/" title="Solar and Renewable energy"
+                    runat="server">AC/DC</a></li>
             </ul>
         </div>
         <div class="tab-4 left">
             <span class="heading"><a href="~/products/Consumer-Electronics" title="Consumer Electronics"
-                runat="server"><br/>Battery Charger</a></span>
+                runat="server">
+                <br />
+                Battery Charger</a></span>
             <ul>
-                <li>DC/DC</li>
-                <li>AC/DC</li>
+                <li><a href="~/products/Consumer-Electronics" title="Consumer Electronics" runat="server">
+                    DC/DC</a></li>
+                <li><a href="~/products/Consumer-Electronics" title="Consumer Electronics" runat="server">
+                    AC/DC</a></li>
             </ul>
         </div>
         <!--div class="tab-5 left">
@@ -91,8 +102,7 @@
         <div class="welcome left">
             <h1>
                 Welcome</h1>
-        
-                There is a huge potential of how technology can help in meeting India's growing
+            There is a huge potential of how technology can help in meeting India's growing
             energy needs using renewable energy sources. The demand of LED and solar products
             is increasing all over the world and there is a huge knowledge gap as most of the
             current solutions are inefficient using discrete electronics components only.
