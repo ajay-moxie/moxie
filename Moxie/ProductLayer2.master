@@ -17,6 +17,23 @@
                 <h1>
                     <asp:Label ID="CategoryName" runat="server" />
                 </h1>
+                <asp:Repeater ID="text" runat="server">
+                    <HeaderTemplate>
+                    </HeaderTemplate>
+                    <ItemTemplate>
+                        <div class="clear">
+                        </div>
+                        <div class="content">
+                            <div class="welcome left">
+                                <%#((System.Xml.XmlNode)Container.DataItem)["SHORTFEATURES"].InnerText%>
+                                <br />
+                                <br />
+                            </div>
+                        </div>
+                    </ItemTemplate>
+                    <FooterTemplate>
+                    </FooterTemplate>
+                </asp:Repeater>
                 <asp:Repeater ID="product" runat="server">
                     <HeaderTemplate>
                     </HeaderTemplate>
@@ -26,12 +43,12 @@
                                 runat="server">
                                 <img id="p11img" src='<%#Page.ResolveUrl(((System.Xml.XmlNode)Container.DataItem)["IMAGE"].InnerText)%>'
                                     width="121" height="155" runat="server" /></a>
-                            <h1>
+                            
                                 <a id="p11name" href='<%#Page.ResolveUrl(((System.Xml.XmlNode)Container.DataItem)["URL"].InnerText)%>'
                                     runat="server">
-                                    <%#((System.Xml.XmlNode)Container.DataItem)["NAME"].InnerText%>
+                                    <h1><%#((System.Xml.XmlNode)Container.DataItem)["NAME"].InnerText%></h1><br /><h3><%#((System.Xml.XmlNode)Container.DataItem)["NAMEADDON"].InnerText%></h3>
                                 </a>
-                            </h1>
+                            
                             <p class="right">
                                 <a id="A1" href='<%#Page.ResolveUrl(((System.Xml.XmlNode)Container.DataItem)["URL"].InnerText)%>'
                                     runat="server">Details--></a>
