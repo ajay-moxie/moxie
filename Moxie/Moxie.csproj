@@ -62,6 +62,7 @@
     <Content Include="Global.asax" />
     <Content Include="images\coming-soon.jpg" />
     <Content Include="images\coming-soon.png" />
+    <Content Include="images\custom-solution.png" />
     <Content Include="images\favicon.ico" />
     <Content Include="images\inner1.jpg" />
     <Content Include="images\inner10.png" />
