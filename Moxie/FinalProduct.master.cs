@@ -27,8 +27,8 @@ namespace Moxie
                 XmlDocument doc = new XmlDocument();
                 doc.Load(Server.MapPath(ConstantVar.ProductXML));
                 XmlNode node = doc.SelectSingleNode("/HEADER/PRODUCT[contains(@NAME,'" + PName + "')]");
-                
-                lname.Text = PName;
+
+                lname.Text = node["NAME"].InnerText + " - " + node["NAMEADDON"].InnerText;
                 lsummary.Text = node["SUMMARY"].InnerText;
                 lfeatures.Text = node["FEATURES"].InnerText;
                 lapplication.Text = node["APPLICATION"].InnerText;
