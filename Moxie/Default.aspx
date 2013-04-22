@@ -2,6 +2,7 @@
     CodeBehind="Default.aspx.cs" Inherits="Moxie.WebForm2" %>
 
 <%@ Register Src="~/usercontrol/rss.ascx" TagName="rss" TagPrefix="uc2" %>
+<%@ Register Src="~/usercontrol/inner_banner.ascx" TagName="inner_banner" TagPrefix="uc1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.easing.1.3.js"></script>
@@ -17,6 +18,7 @@
             });
         });
     </script>
+    <!--
     <div class="banner">
         <div id="slides">
             <div class="slides_container">
@@ -27,6 +29,12 @@
                 <img src="images/banner-5.jpg" width="940" height="327" alt="Slide 5">
             </div>
         </div>
+    </div>
+    -->
+    <div class="clear">
+    </div>
+    <uc1:inner_banner ID="inner_banner1" runat="server" />
+    <div class="clear">
     </div>
     <div class="clear">
     </div>
