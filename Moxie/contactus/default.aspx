@@ -90,6 +90,7 @@
         <a href="mailto:contact@moxiedevices.com">click to email us</a><br />
         Phone: &nbsp;&nbsp;+91 8860497497<br />
         Phone: &nbsp;&nbsp;+91 8800236052<br />
+        TIN: &nbsp;&nbsp;09565716660C<br />
     </div>
     <div class="clear">
     </div>
