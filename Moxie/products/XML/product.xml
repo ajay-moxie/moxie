@@ -219,7 +219,7 @@
 		<IMAGE>~/products/MMC6/MMC6.jpg</IMAGE>
 		<URL>~/products/MMC6/</URL>
 	</PRODUCT>
-	<PRODUCT CATEGORY="_1_top_" type="1" NAME="MMC12">
+	<PRODUCT CATEGORY="_1_" type="1" NAME="MMC12">
 		<NAME>MMC12</NAME>
 		<NAMEADDON>DC/DC Mobile Charger, 12V Battery</NAMEADDON>
 		<SUMMARY>MMC12 - Mobile Charger for 12V Battery</SUMMARY>
@@ -257,29 +257,133 @@
 		<IMAGE>~/products/MMC12/MMC12.jpg</IMAGE>
 		<URL>~/products/MMC12/</URL>
 	</PRODUCT>
-	<PRODUCT CATEGORY="_1_top_" type="1" NAME="MMCAC6V5A">
-		<NAME>MMCAC6V5A</NAME>
-		<NAMEADDON>AC/DC Mobile Charger 6V/500 mA</NAMEADDON>
+	<PRODUCT CATEGORY="_1_top_" type="1" NAME="A-ADL025-A55">
+		<NAME>A-ADL025-A55</NAME>
+		<NAMEADDON>AC DC Mobile Charger 5.5V 450 mA</NAMEADDON>
+		<SUMMARY>"Mobile Charger with AC input and 5.5V 450 mA output"</SUMMARY>
+		<FEATURES>
+			Highly Efficient
+			&lt;br /&gt;
+			Transistor Based
+			&lt;br /&gt;
+			Rated Voltage: 5.5 V
+			&lt;br /&gt;
+			Rated Current: 0.45A
+			&lt;br /&gt;
+			Rated Power: 2.5W
+			&lt;br /&gt;
+			Ripple/Noise: .19
+			&lt;br /&gt;
+			Load Regulation: +/-3%
+			&lt;br /&gt;
+			Efficiency: 0.81
+			&lt;br /&gt;
+			Inrush current: 6A
+			&lt;br /&gt;
+			Noload current: 0.001A
+			&lt;br /&gt;
+			LED Indicator
+			&lt;br /&gt;
+			High Performace
+
+		</FEATURES>
+		<SHORTFEATURES>
+			IC Based Mobile Charger
+			&lt;br /&gt;
+			SMPS
+			&lt;br /&gt;
+			Constant Current/ Constant Voltage
+			&lt;br /&gt;
+			5.5V / 450 mA output
+			&lt;br /&gt;
+			High Performance
+		</SHORTFEATURES>
+		<APPLICATION>
+			A-ADL025-A55 is a ic based mobile charger specially designed for high quality, protections and safety standards. Its simple but efficient and sleek design makes it suitable smart and high mobile charger.
+
+		</APPLICATION>
+		<DATASHEET>~/products/A-ADL025-A55/A-ADL025-A55_DataSheet.pdf</DATASHEET>
+		<IMAGE>~/products/A-ADL025-A55/A-ADL025-A55.jpg</IMAGE>
+		<URL>~/products/A-ADL025-A55/</URL>
+	</PRODUCT>
+	<PRODUCT CATEGORY="_1_top_" type="1" NAME="A-ADT015-A5">
+		<NAME>A-ADT015-A5</NAME>
+		<NAMEADDON>AC DC Mobile Charger 5V 300 mA</NAMEADDON>
+		<SUMMARY>"Mobile Charger with AC input and 5V 300 mA output"</SUMMARY>
+		<FEATURES>
+			Highly Efficient
+			&lt;br /&gt;
+			Transistor Based
+			&lt;br /&gt;
+			Rated Voltage: 5.0 V
+			&lt;br /&gt;
+			Rated Current: 0.3A
+			&lt;br /&gt;
+			Rated Power: 1.5W
+			&lt;br /&gt;
+			Ripple/Noise: .16
+			&lt;br /&gt;
+			Load Regulation: +/-10%
+			&lt;br /&gt;
+			Efficiency: 0.34
+			&lt;br /&gt;
+			Inrush current: 3A
+			&lt;br /&gt;
+			Noload current: 0.004A
+			&lt;br /&gt;
+			LED Indicator
+			&lt;br /&gt;
+			Low cost
+
+		</FEATURES>
+		<SHORTFEATURES>
+			Transistor Based Mobile Charger
+			&lt;br /&gt;
+			SMPS
+			&lt;br /&gt;
+			5V / 300 mA output
+			&lt;br /&gt;
+			Low cost
+		</SHORTFEATURES>
+		<APPLICATION>
+			A-ADT015-A5 is a transistor based mobile charger specially designed for commercial low cost market. Its simple but efficient and sleek design makes it suitable smart and high mobile charger.
+			
+		</APPLICATION>
+		<DATASHEET>~/products/A-ADT015-A5/A-ADT015-A5_DataSheet.pdf</DATASHEET>
+		<IMAGE>~/products/A-ADT015-A5/A-ADT015-A5.jpg</IMAGE>
+		<URL>~/products/A-ADT015-A5/</URL>
+	</PRODUCT>
+	<PRODUCT CATEGORY="_1_top_" type="1" NAME="A-ADV04-B8">
+		<NAME>A-ADV04-B8</NAME>
+		<NAMEADDON>AC DC Adaptor 8V 500 mA</NAMEADDON>
 		<SUMMARY>"Mobile Charger with AC input and 6V 500 mA output"</SUMMARY>
 		<FEATURES>
 			Highly Efficient
 			&lt;br /&gt;
 			IC Based
 			&lt;br /&gt;
-			Regulated Constant Voltage
+			Constant Voltage/Cosntant Current
 			&lt;br /&gt;
-			Regulated Constant Current
+			Rated Voltage: 8.2 V
 			&lt;br /&gt;
-			Battery over voltage protection
+			Rated Current: 0.5A
 			&lt;br /&gt;
-			Best suited for mobile charger design
+			Rated Power: 4W
 			&lt;br /&gt;
-			Solder free design
+			Ripple/Noise: .150
+			&lt;br /&gt;
+			Load Regulation: +/-3%
+			&lt;br /&gt;
+			Efficiency: 0.75
+			&lt;br /&gt;
+			Inrush current: 0.6A
+			&lt;br /&gt;
+			Noload current: 0.004A
 			&lt;br /&gt;
 			LED Indicator
 			&lt;br /&gt;
 			Low cost
-			
+
 		</FEATURES>
 		<SHORTFEATURES>
 			IC Based Mobile Charger
@@ -293,33 +397,41 @@
 			Low cost
 		</SHORTFEATURES>
 		<APPLICATION>
-			MMCAC6V5A is a high efficiency IC regulated solution for Mobile charger. It has simple but efficient and sleek design makes it suitable smart and high quality mobile charger.
+			A-ADV04-B8 is a high efficiency IC regulated solution for Power Adaptor. Its simple but efficient and sleek design makes it suitable smart and high quality Power Adaptor.
 			&lt;br /&gt;
 			&lt;br /&gt;
-			This is best suited for designing of low cost efficient Constant Voltage Constant Current Mobile Charger
+			This is best suited for designing of low cost efficient Constant Voltage Constant Current Power Adaptor
 		</APPLICATION>
-		<DATASHEET>~/products/MMCAC6V5A/MMCAC6V5A_DataSheet.pdf</DATASHEET>
-		<IMAGE>~/products/MMCAC6V5A/MMCAC6V5A.jpg</IMAGE>
-		<URL>~/products/MMCAC6V5A/</URL>
+		<DATASHEET>~/products/A-ADV04-B8/A-ADV04-B8_DataSheet.pdf</DATASHEET>
+		<IMAGE>~/products/A-ADV04-B8/A-ADV04-B8.jpg</IMAGE>
+		<URL>~/products/A-ADV04-B8/</URL>
 	</PRODUCT>
-	<PRODUCT CATEGORY="_1_top_,_4_top_" type="1" NAME="MMCAC8V5A">
-		<NAME>MMCAC8V5A</NAME>
-		<NAMEADDON>AC/DC Mobile Charger, 8V/500 mA</NAMEADDON>
+	<PRODUCT CATEGORY="_1_,_4_top_" type="1" NAME="A-ADV04-A8">
+		<NAME>A-ADV04-A8</NAME>
+		<NAMEADDON>AC/DC Adaptor, 8V/500 mA</NAMEADDON>
 		<SUMMARY>"Power Adaptor with AC input and 8V 500 mA output"</SUMMARY>
 		<FEATURES>
 			Highly Efficient
 			&lt;br /&gt;
 			IC Based
 			&lt;br /&gt;
-			Regulated Constant Voltage
+			Constant Voltage/Cosntant Current
 			&lt;br /&gt;
-			Regulated Constant Current
+			Rated Voltage: 8.2 V
 			&lt;br /&gt;
-			Battery over voltage protection
+			Rated Current: 0.5A
 			&lt;br /&gt;
-			Best suited for Power Adaptor design
+			Rated Power: 4W
 			&lt;br /&gt;
-			Solder free design
+			Ripple/Noise: .408
+			&lt;br /&gt;
+			Load Regulation: +/-3%
+			&lt;br /&gt;
+			Efficiency: +/-3%
+			&lt;br /&gt;
+			Inrush current: 2A
+			&lt;br /&gt;
+			Noload current: 0.002A
 			&lt;br /&gt;
 			LED Indicator
 			&lt;br /&gt;
@@ -338,14 +450,14 @@
 			Low cost
 		</SHORTFEATURES>
 		<APPLICATION>
-			MMCAC8V5A is a high efficiency IC regulated solution for Power Adaptor. It has simple but efficient and sleek design makes it suitable smart and high quality Power Adaptor.
+			A-ADV04-A8 is a high efficiency IC regulated solution for Power Adaptor. Its simple but efficient and sleek design makes it suitable smart and high quality Power Adaptor.
 			&lt;br /&gt;
 			&lt;br /&gt;
 			This is best suited for designing of low cost efficient Constant Voltage Constant Current Power Adaptor
 		</APPLICATION>
-		<DATASHEET>~/products/MMCAC8V5A/MMCAC8V5A_DataSheet.pdf</DATASHEET>
-		<IMAGE>~/products/MMCAC8V5A/MMCAC8V5A.jpg</IMAGE>
-		<URL>~/products/MMCAC8V5A/</URL>
+		<DATASHEET>~/products/A-ADV04-A8/A-ADV04-A8_DataSheet.pdf</DATASHEET>
+		<IMAGE>~/products/A-ADV04-A8/A-ADV04-A8.jpg</IMAGE>
+		<URL>~/products/A-ADV04-A8/</URL>
 	</PRODUCT>
 	<PRODUCT CATEGORY="_2_top_" type="1" NAME="MSLD62M-FULL-LANTERN">
 		<NAME>MSLD62M</NAME>
