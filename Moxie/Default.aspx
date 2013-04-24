@@ -59,6 +59,8 @@
             <ul>
                 <li><a href="~/products/Power-Back-UP-Solutions/" title="Power back-up Solutions"
                     runat="server">DC/DC</a></li>
+                <li><a id="A1" href="~/products/Power-Back-UP-Solutions/" title="Power back-up Solutions"
+                    runat="server">AC/DC</a></li>
             </ul>
         </div>
         <div class="tab-3 left">
@@ -69,8 +71,6 @@
             <ul>
                 <li><a href="~/products/Solar-Renewable-Energy/" title="Solar and Renewable energy"
                     runat="server">DC/DC</a></li>
-                <li><a href="~/products/Solar-Renewable-Energy/" title="Solar and Renewable energy"
-                    runat="server">AC/DC</a></li>
             </ul>
         </div>
         <div class="tab-4 left">
