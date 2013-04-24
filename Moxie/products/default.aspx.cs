@@ -48,12 +48,7 @@ namespace Moxie
                         caturl3.HRef = xn.Attributes["URL"].InnerText;
                         cat3url.HRef = xn.Attributes["URL"].InnerText;
                     }
-                    if (xn.Attributes["id"].InnerText == "4")
-                    {
-                        l4.Text = xn.Attributes["name"].InnerText;
-                        caturl4.HRef = xn.Attributes["URL"].InnerText;
-                        cat4url.HRef = xn.Attributes["URL"].InnerText;
-                    }
+                    
                 }
                 
                 XmlDocument doc0 = new XmlDocument();
@@ -80,11 +75,7 @@ namespace Moxie
                 product3.DataSource = nodes3;
                 product3.DataBind();
 
-                XmlDocument doc4 = new XmlDocument();
-                doc4.Load(Server.MapPath(ConstantVar.ProductXML));
-                XmlNodeList nodes4 = doc4.SelectNodes("/HEADER/PRODUCT[contains(@CATEGORY,'" + "_4_top_" + "')]");
-                product4.DataSource = nodes4;
-                product4.DataBind();
+                
             }
             catch (Exception ex)
             {

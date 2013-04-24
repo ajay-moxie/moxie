@@ -166,42 +166,6 @@ namespace Moxie {
         protected global::System.Web.UI.HtmlControls.HtmlAnchor caturl3;
         
         /// <summary>
-        /// cat4url control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor cat4url;
-        
-        /// <summary>
-        /// l4 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label l4;
-        
-        /// <summary>
-        /// product4 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater product4;
-        
-        /// <summary>
-        /// caturl4 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor caturl4;
-        
-        /// <summary>
         /// right1 control.
         /// </summary>
         /// <remarks>

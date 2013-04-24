@@ -135,37 +135,6 @@
                 <div class="right">
                     <a id="caturl3" class="view_all" runat="server">View all Products</a></div>
             </div>
-            <div class="category_block left">
-                <h1>
-                    <a id="cat4url" class="view_all" runat="server">
-                        <asp:Label ID="l4" runat="server" /></a>
-                </h1>
-                <asp:Repeater ID="product4" runat="server">
-                    <HeaderTemplate>
-                    </HeaderTemplate>
-                    <ItemTemplate>
-                        <div class="product_block left">
-                            <a href='<%#Page.ResolveUrl(((System.Xml.XmlNode)Container.DataItem)["URL"].InnerText)%>'>
-                                <img id="Img1" src='<%#Page.ResolveUrl(((System.Xml.XmlNode)Container.DataItem)["IMAGE"].InnerText)%>'
-                                    width="121" height="155" alt="" runat="server" /></a> <a id="A1" href='<%#Page.ResolveUrl(((System.Xml.XmlNode)Container.DataItem)["URL"].InnerText)%>'
-                                        runat="server">
-                                        <h1>
-                                            <%#((System.Xml.XmlNode)Container.DataItem)["NAME"].InnerText%></h1>
-                                        <br />
-                                        <h3>
-                                            <%#((System.Xml.XmlNode)Container.DataItem)["NAMEADDON"].InnerText%></h3>
-                                    </a>
-                            <%#((System.Xml.XmlNode)Container.DataItem)["SHORTFEATURES"].InnerText%>
-                        </div>
-                    </ItemTemplate>
-                    <FooterTemplate>
-                    </FooterTemplate>
-                </asp:Repeater>
-                <div class="clear">
-                </div>
-                <div class="right">
-                    <a id="caturl4" class="view_all" runat="server">View all Products</a></div>
-            </div>
             <div class="divider left">
                 &nbsp;</div>
             <div class="clear">
