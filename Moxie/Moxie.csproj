@@ -76,6 +76,10 @@
     <Content Include="images\solar-inner.png" />
     <Content Include="js\tabcontent.js" />
     <Content Include="Moxie-Devices-RSS-Feed.xml" />
+    <Content Include="products\A-ADV04-A8\Default.aspx" />
+    <Content Include="products\A-ADV04-B8\Default.aspx" />
+    <Content Include="products\A-ADT015-A5\Default.aspx" />
+    <Content Include="products\A-ADL025-A55\Default.aspx" />
     <Content Include="products\Consumer-Electronics\Default.aspx" />
     <Content Include="products\Custom-Solutions-and-Consultancy\Default.aspx" />
     <Content Include="products\Lighting-Solutions\Default.aspx" />
@@ -140,6 +144,34 @@
     </Compile>
     <Compile Include="ProductLayer2.master.designer.cs">
       <DependentUpon>ProductLayer2.master</DependentUpon>
+    </Compile>
+    <Compile Include="products\A-ADV04-A8\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products\A-ADV04-A8\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="products\A-ADV04-B8\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products\A-ADV04-B8\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="products\A-ADT015-A5\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products\A-ADT015-A5\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="products\A-ADL025-A55\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products\A-ADL025-A55\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="products\Consumer-Electronics\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -386,6 +418,7 @@
     <Content Include="Products.master" />
     <Content Include="FinalProduct.master" />
     <Content Include="ProductLayer2.master" />
+    <None Include="products\MSLD63D\MSLD63d_DataSheet.pdf" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
