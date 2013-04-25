@@ -76,7 +76,11 @@
     <Content Include="images\solar-inner.png" />
     <Content Include="js\tabcontent.js" />
     <Content Include="Moxie-Devices-RSS-Feed.xml" />
+    <Content Include="products\A-ADL025-A55\A-ADL025-A55.jpg" />
+    <Content Include="products\A-ADT015-A5\A-ADT015-A5.jpg" />
+    <Content Include="products\A-ADV04-A8\A-ADV04-A8.jpg" />
     <Content Include="products\A-ADV04-A8\Default.aspx" />
+    <Content Include="products\A-ADV04-B8\A-ADV04-B8.jpg" />
     <Content Include="products\A-ADV04-B8\Default.aspx" />
     <Content Include="products\A-ADT015-A5\Default.aspx" />
     <Content Include="products\A-ADL025-A55\Default.aspx" />

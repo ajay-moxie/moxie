@@ -3,3 +3,8 @@ E:\moxie\Moxie\Moxie\bin\Moxie.pdb
 E:\moxie\Moxie\Moxie\obj\Debug\ResolveAssemblyReference.cache
 E:\moxie\Moxie\Moxie\obj\Debug\Moxie.dll
 E:\moxie\Moxie\Moxie\obj\Debug\Moxie.pdb
+D:\work\led\website\Moxie\Moxie\bin\Moxie.dll
+D:\work\led\website\Moxie\Moxie\bin\Moxie.pdb
+D:\work\led\website\Moxie\Moxie\obj\Debug\ResolveAssemblyReference.cache
+D:\work\led\website\Moxie\Moxie\obj\Debug\Moxie.dll
+D:\work\led\website\Moxie\Moxie\obj\Debug\Moxie.pdb
