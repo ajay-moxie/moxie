@@ -45,9 +45,9 @@
                 <br />
                 LED Lighting</a></span>
             <ul>
-                <li><a href="~/products/Lighting-Solutions/" title="Lighting Solutions" runat="server">
+                <li><a href="~/products/Lighting-Solutions/?driver=dc-dc" title="Lighting Solutions" runat="server">
                     DC/DC</a></li>
-                <li><a href="~/products/Lighting-Solutions/" title="Lighting Solutions" runat="server">
+                <li><a href="~/products/Lighting-Solutions/?driver=ac-dc" title="Lighting Solutions" runat="server">
                     AC/DC</a></li>
             </ul>
         </div>
@@ -57,9 +57,9 @@
                 <br />
                 Power Supply</a></span>
             <ul>
-                <li><a href="~/products/Power-Back-UP-Solutions/" title="Power back-up Solutions"
+                <li><a href="~/products/Power-Back-UP-Solutions/?driver=dc-dc" title="Power back-up Solutions"
                     runat="server">DC/DC</a></li>
-                <li><a id="A1" href="~/products/Power-Back-UP-Solutions/" title="Power back-up Solutions"
+                <li><a id="A1" href="~/products/Power-Back-UP-Solutions/?driver=ac-dc" title="Power back-up Solutions"
                     runat="server">AC/DC</a></li>
             </ul>
         </div>
@@ -69,7 +69,7 @@
                 <br />
                 Photovoltaic</a></span>
             <ul>
-                <li><a href="~/products/Solar-Renewable-Energy/" title="Solar and Renewable energy"
+                <li><a href="~/products/Solar-Renewable-Energy/?driver=dc-dc" title="Solar and Renewable energy"
                     runat="server">DC/DC</a></li>
             </ul>
         </div>
@@ -79,9 +79,9 @@
                 <br />
                 Battery Charger</a></span>
             <ul>
-                <li><a href="~/products/Consumer-Electronics" title="Consumer Electronics" runat="server">
+                <li><a href="~/products/Consumer-Electronics/?driver=dc-dc" title="Consumer Electronics" runat="server">
                     DC/DC</a></li>
-                <li><a href="~/products/Consumer-Electronics" title="Consumer Electronics" runat="server">
+                <li><a href="~/products/Consumer-Electronics/?driver=ac-dc" title="Consumer Electronics" runat="server">
                     AC/DC</a></li>
             </ul>
         </div>
