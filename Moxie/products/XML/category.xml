@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <HEADER>
 	<category id="0" name="LED Lighting" description="LED Lighting Solution" URL="~/products/Lighting-Solutions/"></category>
-	<category id="1" name="Power Supply" description="Power Supply: Adapters, mobile chargers" URL="~/products/Solar-Renewable-Energy/"></category>
+	<category id="1" name="Power Supply" description="Power Supply: Adapters, mobile chargers" URL="~/products/Power-Back-UP-Solutions/"></category>
 	<category id="2" name="Photovoltaic" description="Solar renewable energy" URL="~/products/Solar-Renewable-Energy/"></category>
 	<category id="3" name="Battery Charger" description="Battery Charger Circuits" URL="~/products/Consumer-Electronics/"></category>
 </HEADER>
