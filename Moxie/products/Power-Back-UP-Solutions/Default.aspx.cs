@@ -11,7 +11,7 @@ namespace Moxie.products.Power_Back_UP_Solutions
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Master.CID = "_2_";
+            Master.CID = "_1_";
         }
     }
 }

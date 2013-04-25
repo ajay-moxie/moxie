@@ -11,7 +11,7 @@ namespace Moxie.products.Solar_Renewable_Energy
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Master.CID = "_1_";
+            Master.CID = "_2_";
             Master.inner_image_source = "~/images/solar-inner.png";
         }
     }
