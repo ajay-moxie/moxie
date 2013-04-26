@@ -17,7 +17,7 @@ namespace Moxie
         public string CID = "_0_";
         public string inner_image_source = "~/images/inner101.png";
         string driver_type = "NULL";
-
+        public int node_count = 0;
         protected void Page_Load(object sender, EventArgs e)
         {
 
