@@ -86,6 +86,8 @@
     <Content Include="products\A-ADL025-A55\Default.aspx" />
     <Content Include="products\Consumer-Electronics\Default.aspx" />
     <Content Include="products\Custom-Solutions-and-Consultancy\Default.aspx" />
+    <Content Include="products\led-bulb\Default.aspx" />
+    <Content Include="products\led-bulb\led-bulb-7w.jpg" />
     <Content Include="products\Lighting-Solutions\Default.aspx" />
     <Content Include="products\MMC12\Default.aspx" />
     <Content Include="products\MMC12\MMC12.jpg" />
@@ -189,6 +191,13 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="products\Custom-Solutions-and-Consultancy\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="products\led-bulb\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products\led-bulb\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="products\Lighting-Solutions\Default.aspx.cs">
