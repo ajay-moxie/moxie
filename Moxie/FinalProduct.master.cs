@@ -36,6 +36,24 @@ namespace Moxie
                 ProductImageLink = node["IMAGE"].InnerText;
                 inner_banner1.imgsrc = inner_image_source;
 
+                //string tmp = node["SIMILAR"].InnerText;
+                string[] similar_nodes = new string[4];
+                similar_nodes = node["SIMILAR"].InnerText.Split(',');
+                string str;
+                str = "/HEADER/PRODUCT[";
+                int i = 0;
+                foreach (string s in similar_nodes)
+                {
+                    if (i > 0)
+                        str = str + " or ";
+                    str = str + "contains(@NAME,'" + s + "')";
+                    i++;
+                }
+                str = str + "]";
+                XmlNodeList sililar_nodes;
+                sililar_nodes = doc.SelectNodes(str);
+                similar_id.DataSource = sililar_nodes;
+                similar_id.DataBind();
             }
             catch (Exception ex)
             {

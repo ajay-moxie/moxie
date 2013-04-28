@@ -159,52 +159,26 @@
                 </div>
                 <div class="divider left">
                     &nbsp;</div>
-                <!--<h1>
-                    Other Similar Product</h1>
-                <div class="product_block left">
-                    <a href="#">
-                        <img id="Img2" src="~/images/product.jpg" runat="server" width="121" height="155"
-                            alt="" /></a>
-                    <h1>
-                        <a href="#">Msld6d</a></h1>
-                    High efficiency &gt; 85%<br />
-                    Low cost<br />
-                    PWM Dimming<br />
-                    Battery reverse <a href="#" class="details">Details</a>
-                </div>
-                <div class="product_block left">
-                    <a href="#">
-                        <img id="Img3" src="~/images/product.jpg" runat="server" width="121" height="155"
-                            alt="" /></a>
-                    <h1>
-                        <a href="#">Msld6d</a></h1>
-                    High efficiency &gt; 85%<br />
-                    Low cost<br />
-                    PWM Dimming<br />
-                    Battery reverse <a href="#" class="details">Details</a>
-                </div>
-                <div class="product_block left">
-                    <a href="#">
-                        <img id="Img4" src="~/images/product.jpg" runat="server" width="121" height="155"
-                            alt="" /></a>
-                    <h1>
-                        <a href="#">Msld6d</a></h1>
-                    High efficiency &gt; 85%<br />
-                    Low cost<br />
-                    PWM Dimming<br />
-                    Battery reverse <a href="#" class="details">Details</a>
-                </div>
-                <div class="product_block left">
-                    <a href="#">
-                        <img id="Img5" src="~/images/product.jpg" runat="server" width="121" height="155"
-                            alt="" /></a>
-                    <h1>
-                        <a href="#">Msld6d</a></h1>
-                    High efficiency &gt; 85%<br />
-                    Low cost<br />
-                    PWM Dimming<br />
-                    Battery reverse <a href="#" class="details">Details</a>
-                </div>-->
+                <asp:Repeater ID="similar_id" runat="server">
+                    <HeaderTemplate>
+                        <h1>
+                            Other Similar Product</h1>
+                    </HeaderTemplate>
+                    <ItemTemplate>
+                        <div class="product_block left">
+                            <a href="<%#Page.ResolveUrl(((System.Xml.XmlNode)Container.DataItem)["URL"].InnerText)%>"
+                                runat="server">
+                                <img id="Img2" src="<%#Page.ResolveUrl(((System.Xml.XmlNode)Container.DataItem)["IMAGE"].InnerText)%>"
+                                    runat="server" width="121" height="155" alt="" />
+                                <h1>
+                                    <%#((System.Xml.XmlNode)Container.DataItem)["NAME"].InnerText%></h1>
+                                <br />
+                                <h3>
+                                    <%#((System.Xml.XmlNode)Container.DataItem)["NAMEADDON"].InnerText%></h3>
+                            </a>
+                        </div>
+                    </ItemTemplate>
+                </asp:Repeater>
             </div>
         </div>
         <!--    Right Panel   -->
