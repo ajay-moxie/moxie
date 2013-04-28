@@ -1,55 +1,56 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <publishData>
   <publishProfile publishUrl="ftp://moxiedevices.com" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FTP" replaceMatchingFiles="True" userName="moxiedevices" savePWD="False" userPWD="" SelectedForPublish="True">
-    <file relUrl="Master.Master" publishTime="03/28/2013 21:52:32" />
     <file relUrl="Default.aspx" publishTime="04/25/2013 09:01:58" />
-    <file relUrl="products/A-ADV04-A8/A-ADV04-A8.jpg" publishTime="04/23/2013 21:55:01" />
+    <file relUrl="products/A-ADV04-A8/A-ADV04-A8.jpg" publishTime="04/26/2013 19:35:58" />
     <file relUrl="images/product.jpg" publishTime="09/26/2012 07:18:05" />
     <file relUrl="sitemap/Default.aspx" publishTime="10/21/2012 12:10:07" />
-    <file relUrl="products/A-ADT015-A5/A-ADT015-A5.jpg" publishTime="04/07/2013 18:21:56" />
+    <file relUrl="products/A-ADT015-A5/A-ADT015-A5.jpg" publishTime="04/26/2013 19:35:58" />
     <file relUrl="sitemap.aspx" publishTime="09/29/2012 06:15:41" />
     <file relUrl="images/tw-trans.png" publishTime="08/29/2012 07:46:12" />
     <file relUrl="images/no-image-available.jpg" publishTime="09/29/2012 12:34:35" />
     <file relUrl="images/banner-2.jpg" publishTime="08/31/2012 22:58:04" />
-    <file relUrl="products/A-ADL025-A55/Default.aspx" publishTime="04/24/2013 22:57:29" />
+    <file relUrl="products/A-ADL025-A55/Default.aspx" publishTime="04/26/2013 19:35:58" />
     <file relUrl="images/E02454.jpg" publishTime="08/29/2012 23:38:14" />
     <file relUrl="images/banner.jpg" publishTime="08/31/2012 22:57:54" />
-    <file relUrl="js/slides.min.jquery.js" publishTime="09/11/2012 23:55:16" />
     <file relUrl="products/product3.aspx" publishTime="09/29/2012 11:38:42" />
     <file relUrl="products/Solar-Renewable-Energy/Default.aspx" publishTime="10/13/2012 04:26:41" />
+    <file relUrl="products/A-ADV04-B8/Default.aspx" publishTime="04/26/2013 19:35:58" />
     <file relUrl="Web.config" publishTime="09/29/2012 06:05:20" />
     <file relUrl="images/social_icon-trans.png" publishTime="08/12/2012 11:36:12" />
     <file relUrl="images/contact-trans.png" publishTime="08/29/2012 06:39:06" />
     <file relUrl="images/solar-inner.png" publishTime="03/15/2013 02:57:05" />
-    <file relUrl="bin/Moxie.pdb" publishTime="04/26/2013 09:15:25" />
+    <file relUrl="images/inner-text.png" publishTime="09/01/2012 00:07:38" />
+    <file relUrl="images/navigation-trans.png" publishTime="08/12/2012 22:37:34" />
+    <file relUrl="bin/Moxie.pdb" publishTime="04/28/2013 15:47:52" />
     <file relUrl="images/heading-trans.png" publishTime="08/12/2012 22:11:38" />
     <file relUrl="products/Power-Back-UP-Solutions/Default.aspx" publishTime="10/13/2012 04:25:13" />
     <file relUrl="usercontrol/right-link.ascx" publishTime="10/23/2012 21:42:09" />
+    <file relUrl="products/A-ADV04-B8/A-ADV04-B8.jpg" publishTime="04/26/2013 19:35:58" />
     <file relUrl="js/jquery.easing.1.3.js" publishTime="08/11/2012 16:53:38" />
     <file relUrl="images/tab-3-trans.png" publishTime="08/13/2012 05:23:32" />
-    <file relUrl="bin/Moxie.dll" publishTime="04/26/2013 09:15:27" />
+    <file relUrl="bin/Moxie.dll" publishTime="04/28/2013 15:47:54" />
     <file relUrl="products/MSLD6D/MSLD6D.jpg" publishTime="09/29/2012 15:14:55" />
     <file relUrl="images/favicon.ico" publishTime="02/04/2013 21:49:52" />
-    <file relUrl="images/banner-4.jpg" publishTime="10/23/2012 21:50:46" />
     <file relUrl="images/backup.jpg" publishTime="08/30/2012 23:24:16" />
     <file relUrl="images/banner-3.jpg" publishTime="08/31/2012 22:57:42" />
     <file relUrl="images/tab-4-trans.png" publishTime="08/13/2012 05:22:40" />
     <file relUrl="images/welcome-trans.png" publishTime="08/29/2012 05:38:36" />
+    <file relUrl="Moxie-Devices-RSS-Feed.xml" publishTime="03/17/2013 17:05:49" />
     <file relUrl="products/MMCAC8V5A/Default.aspx" publishTime="02/18/2013 22:06:49" />
     <file relUrl="images/rss-trans.png" publishTime="08/12/2012 22:11:02" />
     <file relUrl="images/pagination-trans.png" publishTime="08/29/2012 05:12:14" />
-    <file relUrl="images/navigation_divider-trans.png" publishTime="08/12/2012 22:38:54" />
     <file relUrl="images/lighting-inner.png" publishTime="03/15/2013 02:35:35" />
     <file relUrl="images/products-trans.png" publishTime="08/12/2012 22:13:12" />
-    <file relUrl="products/XML/product.xml" publishTime="04/26/2013 09:11:54" />
-    <file relUrl="products/MMC6/MMC6.jpg" publishTime="09/29/2012 17:01:48" />
-    <file relUrl="products/MSLD6D/Default.aspx" publishTime="10/10/2012 23:08:57" />
+    <file relUrl="products/XML/product.xml" publishTime="04/28/2013 15:47:02" />
+    <file relUrl="images/custom-solution.png" publishTime="03/17/2013 00:25:13" />
+    <file relUrl="images/inner1.jpg" publishTime="03/15/2013 00:57:34" />
     <file relUrl="products/MSLD63D/MSLD63D.jpg" publishTime="02/20/2013 20:42:19" />
-    <file relUrl="products/led-bulb/led-bulb-7w.jpg" publishTime="04/26/2013 09:10:01" />
+    <file relUrl="products/led-bulb/led-bulb-7w.jpg" publishTime="04/26/2013 19:35:59" />
     <file relUrl="images/company-trans.png" publishTime="08/12/2012 22:12:42" />
     <file relUrl="images/sitemap.gif" publishTime="09/11/2012 19:16:32" />
     <file relUrl="contactus/default.aspx" publishTime="04/22/2013 20:19:22" />
-    <file relUrl="images/solar_panels0793.jpg" publishTime="08/29/2012 23:36:00" />
+    <file relUrl="images/gplus-trans.png" publishTime="08/29/2012 07:45:28" />
     <file relUrl="images/footer_bg.jpg" publishTime="08/29/2012 05:49:50" />
     <file relUrl="products/MMCAC6V5A/Default.aspx" publishTime="02/18/2013 21:27:54" />
     <file relUrl="images/product_main_img.jpg" publishTime="09/26/2012 07:18:17" />
@@ -58,28 +59,28 @@
     <file relUrl="products/MMCAC8V5A/MMCAC8V5A.jpg" publishTime="02/22/2013 21:41:23" />
     <file relUrl="images/Copy of banner.jpg" publishTime="08/29/2012 22:06:06" />
     <file relUrl="sitemap.html" publishTime="09/01/2012 00:50:42" />
+    <file relUrl="products/MMC12/MMC12.jpg" publishTime="09/29/2012 17:00:44" />
+    <file relUrl="aboutus/default.aspx" publishTime="10/14/2012 16:58:23" />
     <file relUrl="images/inner10.png" publishTime="03/15/2013 01:42:04" />
     <file relUrl="images/coming-soon.jpg" publishTime="09/29/2012 16:31:28" />
-    <file relUrl="ProductLayer2.master" publishTime="04/25/2013 20:00:18" />
+    <file relUrl="ProductLayer2.master" publishTime="04/26/2013 19:35:58" />
     <file relUrl="images/tab-2-trans.png" publishTime="08/13/2012 05:24:00" />
     <file relUrl="products/Custom-Solutions-and-Consultancy/Default.aspx" publishTime="10/13/2012 04:20:16" />
     <file relUrl="images/fb-trans.png" publishTime="08/29/2012 07:45:54" />
     <file relUrl="js/jquery.min.js" publishTime="08/11/2012 16:54:12" />
-    <file relUrl="Products.master" publishTime="09/29/2012 06:16:17" />
     <file relUrl="images/H_300w_1045555_snapshot.jpg" publishTime="08/30/2012 23:25:04" />
     <file relUrl="images/Copy of banner-2.jpg" publishTime="08/29/2012 23:27:22" />
-    <file relUrl="images/gplus-trans.png" publishTime="08/29/2012 07:45:28" />
+    <file relUrl="Products.master" publishTime="09/29/2012 06:16:17" />
     <file relUrl="products/product2.aspx" publishTime="09/29/2012 18:58:36" />
-    <file relUrl="products/A-ADV04-B8/A-ADV04-B8.jpg" publishTime="04/07/2013 18:21:39" />
+    <file relUrl="products/MSLD6D/Default.aspx" publishTime="10/10/2012 23:08:57" />
     <file relUrl="images/peak-detector-circuit.png" publishTime="08/30/2012 23:26:56" />
     <file relUrl="images/111.jpg" publishTime="08/29/2012 23:10:38" />
     <file relUrl="products/Consumer-Electronics/Default.aspx" publishTime="10/13/2012 04:13:00" />
-    <file relUrl="products/default.aspx" publishTime="04/22/2013 22:51:48" />
-    <file relUrl="images/MSLD63D.jpg" publishTime="02/20/2013 20:40:15" />
+    <file relUrl="products/default.aspx" publishTime="04/26/2013 19:35:59" />
     <file relUrl="usercontrol/inner_banner.ascx" publishTime="03/15/2013 01:55:37" />
-    <file relUrl="images/navigation-trans.png" publishTime="08/12/2012 22:37:34" />
+    <file relUrl="products/MMC6/MMC6.jpg" publishTime="09/29/2012 17:01:48" />
     <file relUrl="products/MSLD62M-FULL-LANTERN/Default.aspx" publishTime="02/20/2013 22:46:06" />
-    <file relUrl="products/MMC12/MMC12.jpg" publishTime="09/29/2012 17:00:44" />
+    <file relUrl="images/banner-4.jpg" publishTime="10/23/2012 21:50:46" />
     <file relUrl="products/MMCAC6V5A/MMCAC6V5A.jpg" publishTime="02/22/2013 21:45:09" />
     <file relUrl="images/rss_bg.jpg" publishTime="08/12/2012 11:10:40" />
     <file relUrl="images/footer_divider.jpg" publishTime="08/29/2012 06:21:04" />
@@ -89,31 +90,30 @@
     <file relUrl="images/tab-1-trans.png" publishTime="08/12/2012 21:59:08" />
     <file relUrl="products/Lighting-Solutions/Default.aspx" publishTime="10/13/2012 04:23:24" />
     <file relUrl="products/MSLD63D/Default.aspx" publishTime="02/20/2013 20:15:03" />
-    <file relUrl="FinalProduct.master" publishTime="03/15/2013 22:52:59" />
-    <file relUrl="products/led-bulb/Default.aspx" publishTime="04/25/2013 23:48:14" />
+    <file relUrl="FinalProduct.master" publishTime="04/28/2013 15:18:48" />
+    <file relUrl="products/led-bulb/Default.aspx" publishTime="04/26/2013 19:35:59" />
     <file relUrl="images/tab-5-trans.png" publishTime="08/13/2012 05:24:24" />
     <file relUrl="images/in-trans.png" publishTime="08/29/2012 07:44:50" />
-    <file relUrl="css/style.css" publishTime="04/22/2013 21:51:31" />
+    <file relUrl="css/style.css" publishTime="04/26/2013 19:35:58" />
     <file relUrl="css/tabcontent.css" publishTime="09/27/2012 01:05:42" />
     <file relUrl="images/inner.jpg" publishTime="08/31/2012 23:31:04" />
     <file relUrl="images/solar_panel.png" publishTime="08/29/2012 23:33:26" />
-    <file relUrl="aboutus/default.aspx" publishTime="10/14/2012 16:58:23" />
-    <file relUrl="images/inner1.jpg" publishTime="03/15/2013 00:57:34" />
-    <file relUrl="images/custom-solution.png" publishTime="03/17/2013 00:25:13" />
-    <file relUrl="products/A-ADT015-A5/Default.aspx" publishTime="04/24/2013 22:24:57" />
+    <file relUrl="images/MSLD63D.jpg" publishTime="02/20/2013 20:40:15" />
+    <file relUrl="js/slides.min.jquery.js" publishTime="09/11/2012 23:55:16" />
+    <file relUrl="products/A-ADT015-A5/Default.aspx" publishTime="04/26/2013 19:35:58" />
     <file relUrl="images/loading.gif" publishTime="09/11/2012 23:47:26" />
-    <file relUrl="products/A-ADV04-B8/Default.aspx" publishTime="04/23/2013 19:40:34" />
-    <file relUrl="images/inner-text.png" publishTime="09/01/2012 00:07:38" />
-    <file relUrl="products/A-ADV04-A8/Default.aspx" publishTime="04/23/2013 19:35:25" />
-    <file relUrl="Moxie-Devices-RSS-Feed.xml" publishTime="03/17/2013 17:05:49" />
+    <file relUrl="images/navigation_divider-trans.png" publishTime="08/12/2012 22:38:54" />
+    <file relUrl="Master.Master" publishTime="03/28/2013 21:52:32" />
+    <file relUrl="products/A-ADV04-A8/Default.aspx" publishTime="04/26/2013 19:35:58" />
+    <file relUrl="images/solar_panels0793.jpg" publishTime="08/29/2012 23:36:00" />
     <file relUrl="images/inner101.png" publishTime="03/15/2013 01:51:00" />
     <file relUrl="images/coming-soon.png" publishTime="09/29/2012 16:34:09" />
     <file relUrl="products/MMC6/Default.aspx" publishTime="10/11/2012 22:39:43" />
     <file relUrl="js/tabcontent.js" publishTime="09/27/2012 02:14:31" />
-    <file relUrl="products/XML/category.xml" publishTime="04/25/2013 08:53:57" />
+    <file relUrl="products/XML/category.xml" publishTime="04/26/2013 19:35:59" />
     <file relUrl="Global.asax" publishTime="09/16/2012 14:11:43" />
     <file relUrl="products/MMC12/Default.aspx" publishTime="10/11/2012 22:44:44" />
-    <file relUrl="products/A-ADL025-A55/A-ADL025-A55.jpg" publishTime="03/31/2013 18:36:20" />
+    <file relUrl="products/A-ADL025-A55/A-ADL025-A55.jpg" publishTime="04/26/2013 19:35:58" />
     <file relUrl="images/logo-trans.png" publishTime="09/01/2012 00:26:16" />
   </publishProfile>
 </publishData>
