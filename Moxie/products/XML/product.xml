@@ -33,6 +33,7 @@
 		<NAME>MSLD6D</NAME>
 		<NAMEADDON>6V Solar LED Lantern Driver Continous Dimming</NAMEADDON>
 		<SUMMARY>"Solar Lantern LED Driver and SMF Battery Charger with PWM Dimming, mobile phone charging"</SUMMARY>
+		<SIMILAR>MSLD63D,MSLD12M</SIMILAR>
 		<FEATURES>
 			High efficiency > 85%
 			&lt;br /&gt;
@@ -79,6 +80,7 @@
 		<NAME>MSLD63D</NAME>
 		<NAMEADDON>6V Solar LED Lantern Driver 3 Stage Dimming</NAMEADDON>
 		<SUMMARY>"Constant Current Constant Voltage Solar Lantern LED driver with protection circuit, three stage dimmer"</SUMMARY>
+		<SIMILAR>MSLD6D,MSLD12M</SIMILAR>
 		<FEATURES>
 			High efficiency
 			&lt;br /&gt;
@@ -137,6 +139,7 @@
 		<NAME>MSLD12M</NAME>
 		<NAMEADDON>MNRE Compliant 6V Solar LED Lantern</NAMEADDON>
 		<SUMMARY>MNRE Compliant Solar Lantern LED Driver and Battery Charger</SUMMARY>
+		<SIMILAR>MSLD6D,MSLD63D</SIMILAR>
 		<FEATURES>
 			High efficiency > 85%
 			&lt;br /&gt;
@@ -250,6 +253,7 @@
 		<NAME>MMC6</NAME>
 		<NAMEADDON>DC/DC Mobile Charger, 6V</NAMEADDON>
 		<SUMMARY>MMC6 - Mobile Charger for 6V Battery</SUMMARY>
+		<SIMILAR>MMC12</SIMILAR>
 		<FEATURES>
 			Highly efficient constant current driver
 			&lt;br /&gt;
@@ -288,6 +292,7 @@
 		<NAME>MMC12</NAME>
 		<NAMEADDON>DC/DC Mobile Charger, 12V Battery</NAMEADDON>
 		<SUMMARY>MMC12 - Mobile Charger for 12V Battery</SUMMARY>
+		<SIMILAR>MMC6</SIMILAR>
 		<FEATURES>
 			IC Regulated, Highly efficient constant current driver
 			&lt;br /&gt;
@@ -326,6 +331,7 @@
 		<NAME>A-ADL025-A55</NAME>
 		<NAMEADDON>AC DC Mobile Charger 5.5V 450 mA</NAMEADDON>
 		<SUMMARY>"Mobile Charger with AC input and 5.5V 450 mA output"</SUMMARY>
+		<SIMILAR>A-ADV04-B8,A-ADV04-A8,A-ADT015-A5</SIMILAR>
 		<FEATURES>
 			Highly Efficient
 			&lt;br /&gt;
@@ -376,6 +382,7 @@
 		<NAME>A-ADT015-A5</NAME>
 		<NAMEADDON>AC DC Mobile Charger 5V 300 mA</NAMEADDON>
 		<SUMMARY>"Mobile Charger with AC input and 5V 300 mA output"</SUMMARY>
+		<SIMILAR>A-ADV04-B8,A-ADV04-A8,A-ADL025-A55</SIMILAR>
 		<FEATURES>
 			Highly Efficient
 			&lt;br /&gt;
@@ -431,6 +438,7 @@
 		<NAME>A-ADV04-B8</NAME>
 		<NAMEADDON>AC DC Adaptor 8V 500 mA</NAMEADDON>
 		<SUMMARY>"Mobile Charger with AC input and 6V 500 mA output"</SUMMARY>
+		<SIMILAR>A-ADV04-A8,A-ADL025-A55,A-ADT015-A5</SIMILAR>
 		<FEATURES>
 			Highly Efficient
 			&lt;br /&gt;
@@ -484,6 +492,7 @@
 		<NAME>A-ADV04-A8</NAME>
 		<NAMEADDON>AC/DC Adaptor, 8V/500 mA</NAMEADDON>
 		<SUMMARY>"Power Adaptor with AC input and 8V 500 mA output"</SUMMARY>
+		<SIMILAR>A-ADV04-B8,A-ADL025-A55,A-ADT015-A5</SIMILAR>
 		<FEATURES>
 			Highly Efficient
 			&lt;br /&gt;
